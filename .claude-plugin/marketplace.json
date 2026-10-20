@@ -1,0 +1,15 @@
+{
+  "name": "offpilot",
+  "description": "Off Pilot: interfaces com cara própria, feitas com o Claude Code.",
+  "owner": {
+    "name": "Otávio Felix",
+    "url": "https://github.com/OtavioFelix-in"
+  },
+  "plugins": [
+    {
+      "name": "offpilot",
+      "source": "./",
+      "description": "Tira o Claude Code do piloto automático: pergunta antes, dá cara própria a cada sistema e põe a informação certa no lugar certo."
+    }
+  ]
+}

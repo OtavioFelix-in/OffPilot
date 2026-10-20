@@ -1,11 +1,17 @@
 ---
 name: offpilot
 description: Porta de entrada do Off Pilot. Tira o Claude do piloto automático ao criar ou revisar qualquer interface (sistema, painel, site, landing page, tela). Faz as perguntas que mudam o resultado uma vez só, decide a cara, a fonte, a estrutura e o conteúdo da tela antes do código, constrói e revisa o próprio trabalho. Use quando a pessoa chamar /offpilot, ou pedir uma interface que "não pareça feita por IA", "com cara própria" ou "diferente do padrão".
+disable-model-invocation: true
+argument-hint: "[o que você quer criar ou revisar]"
 ---
 
 # Off Pilot
 
 A pessoa chama `/offpilot` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as outras skills do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
+
+As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
+
+O pedido da pessoa: **$ARGUMENTS**
 
 As skills que ela usa:
 
@@ -17,6 +23,10 @@ As skills que ela usa:
 | `estrutura-de-pagina` | o formato de uma página de site |
 | `textos` | todo texto da tela, em português do Brasil |
 | `revisao` | a revisão do que foi feito, e a qualidade mínima |
+
+## Como usar as outras skills
+
+As skills abaixo não entram sozinhas: o núcleo as chama. Quando um passo mandar rodar uma delas, leia o `SKILL.md` dela em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/SKILL.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
 
 ## 1. Ler o pedido e o projeto
 

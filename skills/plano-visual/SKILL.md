@@ -1,11 +1,14 @@
 ---
 name: plano-visual
 description: Decide a cara de um sistema, site ou tela antes de escrever código. Pergunta o que muda o visual, separa tela de vender, de operar e de ler, tira cor, forma e detalhe do mundo físico do produto e mostra o plano para a pessoa aprovar. Use ao criar uma interface nova, ao refazer o visual de uma existente, ou quando a pessoa disser que está genérico, igual a tudo ou "com cara de IA".
+disable-model-invocation: true
 ---
 
 # Plano visual
 
 Sem um plano, o Claude começa a codar com os valores de sempre, e todo sistema sai igual: a mesma cor, os mesmos cantos arredondados, o mesmo card com sombra. Esta skill decide a cara do projeto antes da primeira linha de código, a partir do produto e de quem usa, e a pessoa aprova antes de construir.
+
+As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
 
 Arquivos e skills ligados a esta:
 

@@ -1,11 +1,14 @@
 ---
 name: revisao
 description: Revisa uma interface que já existe com o olhar do Off Pilot. Procura primeiro a cara de IA e a informação fora de lugar, depois texto, fuga do plano visual, qualidade mínima e casos extremos. Entrega uma lista por gravidade, corrige só o que a pessoa aprovar, sem trocar a cara do projeto, e mostra antes e depois. Use quando a pessoa pedir para revisar, criticar, simplificar, blindar ou dar acabamento numa tela ou site pronto, ou disser que está genérico, poluído, confuso ou "com cara de IA".
+disable-model-invocation: true
 ---
 
 # Revisão
 
 As outras skills do Off Pilot decidem uma interface antes de ela existir. Esta olha uma que já existe, feita pelo Claude, por outra IA ou por uma pessoa, e aponta o que a deixa genérica, confusa ou frágil.
+
+As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
 
 Arquivos e skills ligados a esta:
 

@@ -1,29 +1,118 @@
-# Off Pilot
+<p align="center">
+  <img src="assets/offpilot.gif" width="512" alt="Mascote laranja de óculos segurando um notebook. Na tela passam três sistemas com caras diferentes: um posto de combustível, um mercado e uma clínica.">
+</p>
 
-Tira o Claude Code do piloto automático.
+<h1 align="center">Off Pilot</h1>
 
-Peça dez sistemas diferentes ao Claude Code e eles saem com a mesma cara: as mesmas cores, a mesma fonte, tudo arredondado, a informação organizada do mesmo jeito. Um sistema de mercado e um de posto de combustível ficam iguais. Além disso, aparecem na tela textos que não dizem nada, dados que não deviam estar ali e o importante no lugar errado.
+<p align="center"><b>Tira o Claude Code do piloto automático.</b></p>
 
-O Off Pilot é um plugin para o Claude Code, formado por várias skills, que faz o Claude:
+Peça dez sistemas ao Claude Code e eles saem com a mesma cara: as mesmas cores, a mesma fonte, tudo arredondado, quatro cards no topo e um gráfico embaixo. O sistema de um posto e o de um mercado ficam iguais, e nenhum dos dois mostra primeiro o que importa.
 
-- **perguntar** o que muda o sistema antes de começar, em vez de assumir;
-- **criar uma direção visual própria** para cada projeto, a partir do que ele é e de quem usa;
-- **distribuir a informação** pelo que importa para quem olha a tela: o que vem primeiro, o que é secundário e o que sai.
+O Off Pilot é um plugin que faz o Claude **pensar antes de construir**:
 
-## Status
+- **pergunta** o que muda o sistema, em vez de assumir;
+- dá a cada projeto **uma cara tirada do mundo dele**: a placa de preço do posto, a etiqueta de oferta do mercado;
+- põe **a informação certa no lugar certo**: o que a pessoa precisa ver primeiro, o que é secundário e o que nem devia estar na tela;
+- escreve **textos de gente**, em português do Brasil.
 
-Em construção. Ainda não há plugin para instalar.
+## Como instalar
 
-Para usar, chame `/offpilot` com o que você quer ("faz o painel do gerente do posto", "revisa essa tela"). O núcleo faz as perguntas uma vez só, chama as outras skills na ordem certa e revisa o próprio trabalho antes de entregar.
+Você precisa do [Claude Code](https://code.claude.com) na versão 2.1.275 ou mais nova. Para conferir, rode `claude --version` no terminal; para atualizar, `claude update`.
 
-- [skills/offpilot/](skills/offpilot/): o núcleo, a porta de entrada. Decide se é criar, revisar ou mexer numa parte, junta as perguntas, mostra o plano, as fontes e o desenho das telas numa aprovação só, constrói e revisa.
-- [skills/plano-visual/](skills/plano-visual/): decide a cara do projeto antes do código. Pergunta o que muda o visual, separa tela de vender, operar e ler, tira cor, forma e detalhe do mundo do produto e mostra o plano para aprovação. Tem a lista de vícios.
-- [skills/fontes/](skills/fontes/): escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
-- [skills/textos/](skills/textos/): escreve e revisa os textos da tela em português do Brasil. Corta o que não precisa estar ali, usa as palavras do ramo e tem regras para botão, erro, tela vazia, confirmação e números.
-- [skills/estrutura-de-pagina/](skills/estrutura-de-pagina/): escolhe o formato de uma página de site pelo conteúdo real e pelas perguntas de quem visita. Tem 24 formatos, mostra 3 opções desenhadas e estuda sites de referência sem copiar.
-- [skills/informacao/](skills/informacao/): decide o que aparece numa tela de sistema, em que ordem e tamanho, e o que sai. Parte da pergunta da tela, põe o achado do dia no topo, apaga bloco sem pergunta e deixa a tarefa comum a um clique.
-- [skills/revisao/](skills/revisao/): revisa uma tela pronta com o olhar do Off Pilot: cara de IA e informação primeiro, depois texto, plano, qualidade mínima e casos extremos. Lista por gravidade, corrige só o aprovado e mostra antes e depois.
+### Jeito 1: dentro do Claude Code (recomendado)
+
+1. Abra o Claude Code no terminal, em qualquer pasta.
+2. Cole este comando e aperte Enter:
+
+   ```
+   /plugin install offpilot --marketplace OtavioFelix-in/OffPilot
+   ```
+
+3. O Claude Code mostra de onde vem o plugin e pede para confirmar. Confirme.
+4. Escolha **Install for you** para ter o Off Pilot em todos os seus projetos.
+5. Se aparecer `Run /reload-plugins to apply`, rode `/reload-plugins`.
+
+### Jeito 2: pelo terminal do sistema
+
+Serve também para quem usa o Claude Code no app do desktop ou no VS Code, porque os três leem a mesma instalação.
+
+```bash
+claude plugin install offpilot --marketplace OtavioFelix-in/OffPilot
+```
+
+Depois, abra uma sessão nova do Claude Code, ou rode `/reload-plugins` numa que já esteja aberta.
+
+Se o seu Claude Code for anterior à versão 2.1.292, use dois comandos:
+
+```bash
+claude plugin marketplace add OtavioFelix-in/OffPilot
+claude plugin install offpilot@offpilot
+```
+
+### Jeito 3: sem plugin
+
+Copie as skills para a sua pasta pessoal de skills. Nesse jeito, você não recebe atualizações.
+
+```bash
+git clone https://github.com/OtavioFelix-in/OffPilot.git
+cp -r OffPilot/skills/* ~/.claude/skills/
+```
+
+No Windows (PowerShell):
+
+```powershell
+git clone https://github.com/OtavioFelix-in/OffPilot.git
+Copy-Item -Recurse OffPilot\skills\* $HOME\.claude\skills\
+```
+
+### Conferir se deu certo
+
+Numa sessão do Claude Code, digite `/off`. O comando `/offpilot` tem de aparecer na lista.
+
+### Atualizar e desinstalar
+
+- **Receber atualizações sozinho:** rode `/plugin`, vá na aba **Marketplaces**, escolha `offpilot` e selecione **Enable auto-update**. Plugins de fora da loja oficial vêm com isso desligado.
+- **Atualizar agora:** `claude plugin update offpilot@offpilot`
+- **Desinstalar:** `claude plugin uninstall offpilot@offpilot`, e depois `claude plugin marketplace remove offpilot` para tirar a loja.
+
+## Como usar
+
+Chame `/offpilot` e diga o que você quer:
+
+```
+/offpilot faz o painel do gerente de um posto de combustível
+```
+
+O que acontece:
+
+1. **Perguntas, uma vez só.** De duas a quatro, cada uma com um palpite para você só confirmar. Se responder "vai", ele segue com os palpites e diz o que assumiu.
+2. **Uma aprovação antes do código.** Ele mostra numa mensagem só o plano visual, três opções de fonte e o desenho de cada tela.
+3. **Construção.** Tudo segue o que você aprovou.
+4. **Revisão do próprio trabalho.** Antes de entregar, ele procura cara de IA, informação fora de lugar e texto ruim, e corrige.
+5. **Entrega.** Prints no computador e no celular, mais o que você precisa confirmar.
+
+Também dá para chamar uma parte só:
+
+| Comando | Para quê |
+|---|---|
+| `/offpilot revisa essa tela` | revisar algo pronto: lista por gravidade, antes e depois |
+| `/plano-visual` | definir a cara do projeto |
+| `/fontes` | escolher a fonte entre três combinações |
+| `/informacao` | decidir o que vai numa tela de sistema e em que ordem |
+| `/estrutura-de-pagina` | escolher o formato de uma página de site |
+| `/textos` | escrever ou revisar os textos da tela |
+| `/revisao` | revisar uma interface pronta |
+
+Se outro plugin já usar algum desses nomes, use a forma completa: `/offpilot:fontes`.
+
+## Leve e transparente
+
+- **Não pesa:** as skills só entram no contexto quando você chama. Instalado e parado, o Off Pilot quase não gasta nada.
+- **Só texto:** são arquivos Markdown. Nenhum programa, nenhuma chamada de rede, nenhum hook. Dá para ler tudo em poucos minutos.
+- **Memória do projeto:** as decisões aprovadas ficam em `.offpilot/direcao.md`, na raiz do seu projeto. As próximas telas seguem o que está lá.
 
 ## Licença
 
-MIT (a definir).
+[MIT](LICENSE).
+
+Projeto independente, sem ligação com a Anthropic. O mascote é uma homenagem ao do Claude Code.

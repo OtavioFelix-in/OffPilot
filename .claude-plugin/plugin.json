@@ -1,0 +1,13 @@
+{
+  "name": "offpilot",
+  "version": "0.1.0",
+  "description": "Tira o Claude Code do piloto automático: pergunta antes, dá cara própria a cada sistema e põe a informação certa no lugar certo.",
+  "author": {
+    "name": "Otávio Felix",
+    "url": "https://github.com/OtavioFelix-in"
+  },
+  "homepage": "https://github.com/OtavioFelix-in/OffPilot",
+  "repository": "https://github.com/OtavioFelix-in/OffPilot",
+  "license": "MIT",
+  "keywords": ["design", "interface", "ui", "ux", "frontend", "dashboard", "portugues"]
+}
