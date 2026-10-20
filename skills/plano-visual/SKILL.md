@@ -63,7 +63,7 @@ De cada objeto, anote o que ele empresta: uma cor, uma forma, um material, um je
 
 Depois escolha a **ideia** do projeto numa frase: *"neste sistema, [algo do mundo do produto] vira [uma decisão visual]"*. Por exemplo: "neste sistema, a placa de preço do posto vira o jeito de mostrar o valor do litro: números enormes, contraste máximo".
 
-**Teste da ideia:** troque o produto pelo concorrente da esquina. Se a frase continua valendo, a ideia é do ramo inteiro, não deste projeto. Procure algo mais específico.
+**Teste da ideia:** troque o produto por um de outro ramo (o mercado, se o pedido é o posto). Se a frase continua fazendo sentido, a ideia é genérica. Procure algo que só existe no mundo deste produto.
 
 ## 5. Montar o plano
 
@@ -88,6 +88,7 @@ Antes de mostrar o plano:
 
 1. **Teste do vizinho.** Escreva, de cabeça, o plano que você faria para o produto vizinho: o mercado, se o pedido é o posto. Se os dois saem parecidos (mesma cor, mesmos cantos, mesmo esqueleto), o plano é genérico. Refaça a parte que se repetiu.
 2. **Teste dos vícios.** Passe o plano por [vicios.md](vicios.md). Cada item que aparecer precisa de um motivo vindo do produto ou do pedido. Sem motivo, sai.
+3. **Quando a marca obriga.** Se a marca impõe algo que bate com o vizinho ou com [vicios.md](vicios.md), como as cores da bandeira, mantenha e diga no plano que ficou por causa da marca. A diferença então vem do que a marca não fixa: forma, densidade, esqueleto e detalhe-assinatura.
 
 ## 7. Mostrar e esperar o ok
 
@@ -125,6 +126,7 @@ Com o plano aprovado, grave-o em `.offpilot/direcao.md`, na raiz do projeto, com
 
 ## 9. Construir
 
+- **Releia [vicios.md](vicios.md) antes de escrever**, não só no fim. Vício entra na hora de escrever, até em texto pequeno como subtítulo e rótulo.
 - **Tudo vira variável primeiro:** cores, fontes, cantos, espaçamentos. O resto do código usa só as variáveis. Valor solto no meio do CSS não entra.
 - **A ousadia fica num lugar só:** o detalhe-assinatura. Todo o resto segue o plano sem enfeite.
 - **Qualidade mínima, sempre:**

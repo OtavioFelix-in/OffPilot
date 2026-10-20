@@ -49,12 +49,14 @@ Cada combinação tem:
 
 - **título:** a fonte da marca, dos títulos e dos destaques;
 - **texto:** a fonte de rótulos, parágrafos, botões e campos;
-- **número:** só em tela de operar, a fonte de tabelas, valores e códigos. Pode ser a mesma do texto.
+- **número:** só em tela de operar, a fonte de tabelas, valores e códigos. De preferência a mesma do texto, com números de largura igual.
 
 Uma família só, em pesos diferentes, também é uma combinação válida. Em tela de operar costuma ser a melhor.
 
 Regras para as três:
 
+- **Poucas fontes na mesma tela.** No máximo duas famílias, mais uma só para o detalhe-assinatura, se houver. Uma família em pesos diferentes é melhor que duas famílias. Trocar de fonte a cada bloco ou coluna deixa a tela remendada.
+- **Fonte mono só onde a largura fixa serve para algo**, como código, placa de carro ou chave de acesso. Número de tabela usa a fonte do texto com `font-variant-numeric: tabular-nums`.
 - **As três vêm de grupos diferentes do acervo.** Três versões do mesmo grupo não são uma escolha.
 - **Pelo menos uma sai do mundo do produto** (passo 2), não de um grupo neutro.
 - **Nenhuma usa fonte de [queimadas.md](queimadas.md).**
