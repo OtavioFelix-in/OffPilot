@@ -17,6 +17,7 @@ Em construção. Ainda não há plugin para instalar.
 - [skills/plano-visual/](skills/plano-visual/): decide a cara do projeto antes do código. Pergunta o que muda o visual, separa tela de vender, operar e ler, tira cor, forma e detalhe do mundo do produto e mostra o plano para aprovação. Tem a lista de vícios.
 - [skills/fontes/](skills/fontes/): escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
 - [skills/textos/](skills/textos/): escreve e revisa os textos da tela em português do Brasil. Corta o que não precisa estar ali, usa as palavras do ramo e tem regras para botão, erro, tela vazia, confirmação e números.
+- [skills/estrutura-de-pagina/](skills/estrutura-de-pagina/): escolhe o formato de uma página de site pelo conteúdo real e pelas perguntas de quem visita. Tem 24 formatos, mostra 3 opções desenhadas e estuda sites de referência sem copiar.
 - [referencias/](referencias/): skills abertas que já atacam parte do problema, com o que cada uma traz.
 
 ## Licença

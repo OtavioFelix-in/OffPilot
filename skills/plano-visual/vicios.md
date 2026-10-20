@@ -27,6 +27,7 @@ Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira 
   - título centralizado, uma frase embaixo, dois botões e um print do produto;
   - três cards iguais de "recursos", cada um com um ícone;
   - grade bento de blocos arredondados.
+  - a sequência pronta: título, logos de clientes, três cards de recursos, depoimentos, preços, perguntas e botão final, em qualquer ramo (ver skill `estrutura-de-pagina`).
 - **Sistema:**
   - menu lateral escuro com o item ativo numa pílula colorida;
   - quatro cards de número no topo, cada um com ícone num círculo, um "+12,5%" verde e um minigráfico;
