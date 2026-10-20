@@ -18,7 +18,7 @@ Cada pasta tem o nome do que a skill faz. A origem e a licença de cada uma est�
 | [direcao-de-arte](direcao-de-arte/) | Tira a ideia visual do mundo do cliente. Tem um guia de telas de sistema: a pergunta da tela, o que vem primeiro, o que sai. | visual, informação |
 | [estrutura-de-pagina](estrutura-de-pagina/) | Escolhe a estrutura da página antes da cor e não repete estrutura de um projeto para o outro. | visual, estrutura |
 | [catalogo-de-design](catalogo-de-design/) | Tabelas de paletas, fontes e regras de UX por tipo de produto. | catálogo |
-| [texto-sem-cara-de-ia](texto-sem-cara-de-ia/) | Revisa texto procurando 26 padrões de escrita de IA. | textos |
+| texto-sem-cara-de-ia (reescrita: [skills/textos](../skills/textos/)) | Revisa texto procurando 26 padrões de escrita de IA. | textos |
 
 ### plano-visual
 
@@ -69,6 +69,8 @@ Limite: só página de apresentação.
 Risco: a tabela recomenda a mesma mesmice para todo produto de um tipo. Usar só as regras de UX.
 
 ### texto-sem-cara-de-ia
+
+Já reescrita como a skill `textos` do Off Pilot, em [skills/textos](../skills/textos/). O que ela era antes:
 
 - 26 padrões de texto com cara de IA: "não é X, é Y", trio forçado, travessão em tudo, palavra inflada, negrito decorativo.
 - Feita para texto longo. Precisa de uma versão curta para texto de tela.

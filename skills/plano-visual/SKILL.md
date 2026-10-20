@@ -147,10 +147,4 @@ Se der para ver a tela renderizada, tire print no celular e no computador e comp
 
 ## Textos da tela
 
-Até existir a skill de textos do Off Pilot, siga o básico:
-
-- nome pelo que o usuário entende, não pelo que o sistema faz por dentro: "Avisos", não "Configuração de webhook";
-- botão diz o que acontece: "Salvar abastecimento", não "Enviar". A mesma ação mantém o mesmo nome até o fim;
-- erro diz o que houve e como resolver, sem pedir desculpa;
-- tela vazia diz o que fazer para ela deixar de estar vazia;
-- dado de exemplo com cara do produto: placa de carro, litro, bico 3. Nada de "João Silva" ou "Lorem ipsum".
+Todo texto da tela (título, botão, rótulo, erro, tela vazia, aviso) segue a skill `textos`. Ela também guarda o glossário do ramo no mesmo `.offpilot/direcao.md`.

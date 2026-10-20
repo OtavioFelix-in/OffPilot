@@ -11,7 +11,7 @@ As pastas desta seção partiram de skills abertas de outros autores. As licenç
 | direcao-de-arte | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT | `63aba5f` |
 | estrutura-de-pagina | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | MIT | `13ac0ec` |
 | catalogo-de-design | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT | `56ea9cf` |
-| texto-sem-cara-de-ia | [blader/humanizer](https://github.com/blader/humanizer) | MIT | `8c307f3` |
+| texto-sem-cara-de-ia (reescrita, hoje em `skills/textos`) | [blader/humanizer](https://github.com/blader/humanizer) | MIT | `8c307f3` |
 
 Copiado em 2026-10-20.
 
@@ -21,3 +21,4 @@ Copiado em 2026-10-20.
 - 2026-10-20: pastas renomeadas pelo que cada skill faz, e o nome original trocado pelo novo dentro dos textos. Endereços de internet e arquivos de licença ficaram como estavam.
 - 2026-10-20: plano-visual reescrita do zero em português como skill do Off Pilot (`skills/plano-visual`). A cópia original saiu desta pasta.
 - 2026-10-20: texto-sem-cara-de-ia traduzida para o português. Os exemplos foram adaptados e os padrões que só existem em inglês (§10, §12, §18) trocados pelos equivalentes em português.
+- 2026-10-20: texto-sem-cara-de-ia reescrita do zero em português como a skill `textos` do Off Pilot, focada em texto de tela. A cópia original saiu desta pasta.
