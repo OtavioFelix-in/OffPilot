@@ -20,3 +20,4 @@ Copiado em 2026-10-20.
 - 2026-10-20: copiados só os arquivos `.md` de cada skill (e os `.csv` do catalogo-de-design). Scripts e programas ficaram de fora.
 - 2026-10-20: pastas renomeadas pelo que cada skill faz, e o nome original trocado pelo novo dentro dos textos. Endereços de internet e arquivos de licença ficaram como estavam.
 - 2026-10-20: plano-visual reescrita do zero em português como skill do Off Pilot (`skills/plano-visual`). A cópia original saiu desta pasta.
+- 2026-10-20: texto-sem-cara-de-ia traduzida para o português. Os exemplos foram adaptados e os padrões que só existem em inglês (§10, §12, §18) trocados pelos equivalentes em português.
