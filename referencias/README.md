@@ -15,7 +15,7 @@ Cada pasta tem o nome do que a skill faz. A origem e a licença de cada uma est�
 |---|---|---|
 | plano-visual (reescrita: [skills/plano-visual](../skills/plano-visual/)) | Monta um plano de cor, fonte e layout e o compara com o que sairia para qualquer pedido parecido antes de codar. | visual, textos |
 | [refino-de-interface](refino-de-interface/) | Separa a tela pelo uso (vender, operar, ler), faz as perguntas iniciais e tem comandos de revisão, corte e acabamento. | visual, informação, textos |
-| [direcao-de-arte](direcao-de-arte/) | Tira a ideia visual do mundo do cliente. Tem um guia de telas de sistema: a pergunta da tela, o que vem primeiro, o que sai. | visual, informação |
+| direcao-de-arte (reescrita: [skills/informacao](../skills/informacao/)) | Tira a ideia visual do mundo do cliente. Tem um guia de telas de sistema: a pergunta da tela, o que vem primeiro, o que sai. | visual, informação |
 | estrutura-de-pagina (reescrita: [skills/estrutura-de-pagina](../skills/estrutura-de-pagina/)) | Escolhe a estrutura da página antes da cor e não repete estrutura de um projeto para o outro. | visual, estrutura |
 | [catalogo-de-design](catalogo-de-design/) | Tabelas de paletas, fontes e regras de UX por tipo de produto. | catálogo |
 | texto-sem-cara-de-ia (reescrita: [skills/textos](../skills/textos/)) | Revisa texto procurando 26 padrões de escrita de IA. | textos |
@@ -46,6 +46,8 @@ A mais completa e a mais próxima da frente 2.
 Limite: é grande (46 arquivos) e várias etapas dependem de um programa próprio que não está aqui.
 
 ### direcao-de-arte
+
+Já reescrita: a parte de telas de sistema virou a skill [informacao](../skills/informacao/). O que ela era antes:
 
 - `references/tells.md`: o melhor catálogo de vícios, **datado por onda** (2023–24, 2025, 2025–26). Toda lista de "use isso no lugar" vira o próximo vício.
 - `references/app-screens.md` (1.199 linhas): telas de sistema, painel e admin. Entra direto na frente 2.

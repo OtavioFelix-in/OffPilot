@@ -18,6 +18,7 @@ Em construção. Ainda não há plugin para instalar.
 - [skills/fontes/](skills/fontes/): escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
 - [skills/textos/](skills/textos/): escreve e revisa os textos da tela em português do Brasil. Corta o que não precisa estar ali, usa as palavras do ramo e tem regras para botão, erro, tela vazia, confirmação e números.
 - [skills/estrutura-de-pagina/](skills/estrutura-de-pagina/): escolhe o formato de uma página de site pelo conteúdo real e pelas perguntas de quem visita. Tem 24 formatos, mostra 3 opções desenhadas e estuda sites de referência sem copiar.
+- [skills/informacao/](skills/informacao/): decide o que aparece numa tela de sistema, em que ordem e tamanho, e o que sai. Parte da pergunta da tela, põe o achado do dia no topo, apaga bloco sem pergunta e deixa a tarefa comum a um clique.
 - [referencias/](referencias/): skills abertas que já atacam parte do problema, com o que cada uma traz.
 
 ## Licença

@@ -78,7 +78,7 @@ Cada decisão tem um motivo tirado das etapas 2 a 4. "Moderno e limpo" não é m
   - **Como separar áreas:** linha, mudança de tom ou espaço. Sombra só onde algo flutua de verdade, como um menu aberto.
   - **Ícones:** com ou sem, que estilo, que espessura.
 - **Densidade.** Folgada ou compacta, conforme o uso. Quem lança cem itens por hora quer compacto. Quem olha uma vez por dia aguenta folga.
-- **Esqueleto.** Uma frase e um desenho em texto da organização geral: onde fica a navegação e onde fica a área de trabalho. A ordem dos blocos dentro da tela, o que vem primeiro e o que sai, é trabalho da distribuição da informação, não deste plano.
+- **Esqueleto.** Uma frase e um desenho em texto da organização geral: onde fica a navegação e onde fica a área de trabalho. A ordem dos blocos dentro da tela, o que vem primeiro e o que sai, é trabalho da skill `informacao` (tela de sistema) ou da `estrutura-de-pagina` (página de site), não deste plano.
 - **Detalhe-assinatura.** **Um só**, com nome concreto e tirado da ideia: "o valor do litro aparece como na placa da pista", "o total do carrinho imita o rodapé do cupom fiscal". É o único lugar da tela que pode chamar atenção. O resto fica quieto.
 - **Movimento.** Só onde mostra o que mudou: algo abriu, salvou ou deu erro. Nada de animação de entrada em tudo.
 

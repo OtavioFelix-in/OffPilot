@@ -33,6 +33,7 @@ Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira 
   - quatro cards de número no topo, cada um com ícone num círculo, um "+12,5%" verde e um minigráfico;
   - gráfico de área com degradê embaixo dos cards;
   - tabela zebrada com cabeçalho em caixa alta.
+  - a lista completa de vícios de tela de sistema está na skill `informacao`.
 - Tudo dentro de card, até o que não precisa de moldura.
 
 ## Tipografia
