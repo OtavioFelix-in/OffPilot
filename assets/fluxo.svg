@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-labelledby="t d">
+  <title id="t">O que acontece quando você chama /offpilot</title>
+  <desc id="d">Cinco etapas em sequência: perguntas uma vez só, plano com cara, fonte e telas, construção, revisão contra a cara de IA e entrega com prints. Você responde as perguntas e aprova o plano antes do código.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1411"/>
+      <stop offset="1" stop-color="#1B2721"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .rail{stroke:#2E4239;stroke-width:4;stroke-linecap:round;stroke-dasharray:2 14;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-16}}
+    .card{fill:#16211D;stroke:#2E4239;stroke-width:3;animation:lit 10s infinite}
+    @keyframes lit{0%,100%{stroke:#2E4239;fill:#16211D}3%,17%{stroke:#FFB547;fill:#1F2E28}20%{stroke:#2E4239;fill:#16211D}}
+    .n1 .card{animation-delay:0s}.n2 .card{animation-delay:2s}.n3 .card{animation-delay:4s}.n4 .card{animation-delay:6s}.n5 .card{animation-delay:8s}
+    .num{font-size:20px;font-weight:800;fill:#FFB547;text-anchor:middle}
+    .ttl{font-size:26px;font-weight:800;fill:#FFFFFF;text-anchor:middle}
+    .sub{font-size:17px;fill:#A3B8AE;text-anchor:middle}
+    .you{fill:#FFB547}
+    .youtxt{font-size:15px;font-weight:800;fill:#241604;text-anchor:middle}
+    .in{opacity:0;animation:rise .8s ease-out forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1!important}}
+  </style>
+
+  <rect width="1280" height="380" rx="28" fill="url(#bg)"/>
+  <text class="in" x="640" y="58" text-anchor="middle" font-size="30" font-weight="800" fill="#FFFFFF">O que acontece quando você chama <tspan fill="#FFB547">/offpilot</tspan></text>
+
+  <path id="trilho" d="M150 190 H1130" class="rail" fill="none"/>
+  <circle r="9" fill="#FFB547">
+    <animateMotion dur="10s" repeatCount="indefinite"><mpath href="#trilho"/></animateMotion>
+  </circle>
+  <circle r="20" fill="#FFB547" opacity=".22">
+    <animateMotion dur="10s" repeatCount="indefinite"><mpath href="#trilho"/></animateMotion>
+  </circle>
+
+  <g class="n1" transform="translate(150 190)">
+    <rect class="card" x="-100" y="-62" width="200" height="124" rx="20"/>
+    <text class="num" y="-30">1</text>
+    <text class="ttl" y="6">Perguntas</text>
+    <text class="sub" y="34">uma vez só</text>
+    <rect class="you" x="-56" y="76" width="112" height="26" rx="13"/>
+    <text class="youtxt" y="94">você responde</text>
+  </g>
+  <g class="n2" transform="translate(395 190)">
+    <rect class="card" x="-100" y="-62" width="200" height="124" rx="20"/>
+    <text class="num" y="-30">2</text>
+    <text class="ttl" y="6">Plano</text>
+    <text class="sub" y="34">cara, fonte e telas</text>
+    <rect class="you" x="-52" y="76" width="104" height="26" rx="13"/>
+    <text class="youtxt" y="94">você aprova</text>
+  </g>
+  <g class="n3" transform="translate(640 190)">
+    <rect class="card" x="-100" y="-62" width="200" height="124" rx="20"/>
+    <text class="num" y="-30">3</text>
+    <text class="ttl" y="6">Construção</text>
+    <text class="sub" y="34">seguindo o plano</text>
+  </g>
+  <g class="n4" transform="translate(885 190)">
+    <rect class="card" x="-100" y="-62" width="200" height="124" rx="20"/>
+    <text class="num" y="-30">4</text>
+    <text class="ttl" y="6">Revisão</text>
+    <text class="sub" y="34">caça a cara de IA</text>
+  </g>
+  <g class="n5" transform="translate(1130 190)">
+    <rect class="card" x="-100" y="-62" width="200" height="124" rx="20"/>
+    <text class="num" y="-30">5</text>
+    <text class="ttl" y="6">Entrega</text>
+    <text class="sub" y="34">prints e pendências</text>
+  </g>
+
+  <text class="in" x="640" y="338" text-anchor="middle" font-size="19" fill="#8FA69B" style="animation-delay:.6s">Nenhuma linha de código antes de você aprovar o plano.</text>
+</svg>

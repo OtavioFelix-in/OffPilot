@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-labelledby="t d">
+  <title id="t">Off Pilot</title>
+  <desc id="d">Mascote laranja de óculos segurando um notebook. Na tela passam três sistemas com caras diferentes: um posto de combustível, um mercado e uma clínica. Ao lado, o título Off Pilot, a frase "Tira o Claude Code do piloto automático" e um interruptor de piloto automático que desliga.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1411"/>
+      <stop offset="1" stop-color="#1B2721"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#D97757" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#8FB3A3" stroke-width="1" opacity=".07"/>
+    </pattern>
+    <clipPath id="tela"><rect x="74" y="206" width="152" height="88" rx="4"/></clipPath>
+    <clipPath id="lente1"><rect x="72" y="132" width="58" height="56" rx="14"/></clipPath>
+    <clipPath id="lente2"><rect x="170" y="132" width="58" height="56" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    text{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .bob{animation:bob 3.4s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .shadow{transform-box:fill-box;transform-origin:center;animation:shadow 3.4s ease-in-out infinite}
+    @keyframes shadow{0%,100%{transform:scaleX(1);opacity:.34}50%{transform:scaleX(.84);opacity:.2}}
+    .blink{transform-box:fill-box;transform-origin:center;animation:blink 4.6s infinite}
+    @keyframes blink{0%,91%,100%{transform:scaleY(1)}94%{transform:scaleY(.08)}}
+    .brilho{animation:brilho 4.6s ease-in-out infinite}
+    @keyframes brilho{0%,55%{transform:translateX(-90px)}75%,100%{transform:translateX(90px)}}
+    .halo{animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+    .s1,.s2,.s3{opacity:0;animation:cena 9s infinite}
+    .s2{animation-delay:3s}.s3{animation-delay:6s}
+    @keyframes cena{0%{opacity:0}4%,30%{opacity:1}34%,100%{opacity:0}}
+    .knob{animation:knob 6s cubic-bezier(.6,0,.2,1) infinite}
+    @keyframes knob{0%,25%{transform:translateX(0)}35%,90%{transform:translateX(-46px)}100%{transform:translateX(0)}}
+    .on{animation:on 6s infinite}
+    @keyframes on{0%,25%{opacity:1}35%,90%{opacity:0}100%{opacity:1}}
+    .off{animation:off 6s infinite}
+    @keyframes off{0%,25%{opacity:0}35%,90%{opacity:1}100%{opacity:0}}
+    .luz{animation:luz 6s infinite}
+    @keyframes luz{0%,25%{fill:#4ADE80}35%,90%{fill:#FFB547}100%{fill:#4ADE80}}
+    .in{opacity:0;animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1!important}.s1{opacity:1!important}.off{opacity:1!important}.on{opacity:0!important}.knob{transform:translateX(-46px)}}
+  </style>
+
+  <rect width="1280" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="600" rx="28" fill="url(#grid)"/>
+  <ellipse cx="335" cy="320" rx="320" ry="260" fill="url(#glow)" class="halo"/>
+
+  <ellipse class="shadow" cx="337" cy="482" rx="160" ry="14" fill="#000"/>
+
+  <g transform="translate(150 66) scale(1.25)">
+    <g class="bob">
+      <g fill="#C2593A">
+        <rect x="48" y="252" width="34" height="62" rx="9"/>
+        <rect x="100" y="252" width="34" height="62" rx="9"/>
+        <rect x="166" y="252" width="34" height="62" rx="9"/>
+        <rect x="218" y="252" width="34" height="62" rx="9"/>
+      </g>
+      <rect x="30" y="96" width="240" height="170" rx="20" fill="#D97757"/>
+      <rect x="30" y="96" width="240" height="26" rx="13" fill="#E88A69" opacity=".55"/>
+
+      <g fill="#1B120F">
+        <rect class="blink" x="88" y="138" width="26" height="46" rx="7"/>
+        <rect class="blink" x="186" y="138" width="26" height="46" rx="7"/>
+      </g>
+
+      <g>
+        <rect x="72" y="132" width="58" height="56" rx="14" fill="#CFE8FF" opacity=".28"/>
+        <rect x="170" y="132" width="58" height="56" rx="14" fill="#CFE8FF" opacity=".28"/>
+        <g clip-path="url(#lente1)"><g transform="skewX(-20)"><rect class="brilho" x="137" y="120" width="10" height="80" fill="#fff" opacity=".7"/></g></g>
+        <g clip-path="url(#lente2)"><g transform="skewX(-20)"><rect class="brilho" x="235" y="120" width="10" height="80" fill="#fff" opacity=".7"/></g></g>
+        <rect x="72" y="132" width="58" height="56" rx="14" fill="none" stroke="#1B120F" stroke-width="7"/>
+        <rect x="170" y="132" width="58" height="56" rx="14" fill="none" stroke="#1B120F" stroke-width="7"/>
+        <path d="M130 152 Q150 142 170 152" fill="none" stroke="#1B120F" stroke-width="7" stroke-linecap="round"/>
+        <path d="M72 148 H34 M228 148 H266" stroke="#1B120F" stroke-width="7" stroke-linecap="round"/>
+      </g>
+
+      <g>
+        <rect x="64" y="196" width="172" height="108" rx="10" fill="#0A0F0D" transform="translate(4 6)" opacity=".3"/>
+        <rect x="64" y="196" width="172" height="108" rx="10" fill="#1A1F24" stroke="#39424C" stroke-width="3"/>
+        <circle cx="150" cy="201" r="2" fill="#4A545E"/>
+
+        <g clip-path="url(#tela)">
+          <g class="s1">
+            <rect x="74" y="206" width="152" height="88" fill="#23272B"/>
+            <rect x="74" y="206" width="152" height="6" fill="#DD1D21"/>
+            <rect x="74" y="212" width="152" height="6" fill="#FBCE07"/>
+            <text x="84" y="262" font-size="38" font-weight="800" fill="#FBCE07" font-family="ui-monospace,Consolas,monospace">789</text>
+            <rect x="84" y="276" width="78" height="4" rx="2" fill="#4A5058"/>
+            <g fill="#FBCE07">
+              <rect x="176" y="262" width="7" height="18"/>
+              <rect x="186" y="248" width="7" height="32"/>
+              <rect x="196" y="238" width="7" height="42"/>
+              <rect x="206" y="252" width="7" height="28"/>
+            </g>
+          </g>
+          <g class="s2">
+            <rect x="74" y="206" width="152" height="88" fill="#FFFFFF"/>
+            <rect x="74" y="206" width="152" height="12" fill="#1F7A3A"/>
+            <g>
+              <rect x="84" y="228" width="36" height="34" rx="3" fill="#FFD400"/>
+              <rect x="92" y="240" width="20" height="12" fill="#E30613"/>
+              <rect x="132" y="228" width="36" height="34" rx="3" fill="#FFD400"/>
+              <rect x="140" y="240" width="20" height="12" fill="#E30613"/>
+              <rect x="180" y="228" width="36" height="34" rx="3" fill="#FFD400"/>
+              <rect x="188" y="240" width="20" height="12" fill="#E30613"/>
+            </g>
+            <rect x="84" y="272" width="90" height="5" rx="2" fill="#C8CDD2"/>
+            <rect x="84" y="282" width="60" height="5" rx="2" fill="#C8CDD2"/>
+            <rect x="190" y="274" width="26" height="12" rx="2" fill="#E30613"/>
+          </g>
+          <g class="s3">
+            <rect x="74" y="206" width="152" height="88" fill="#EAF6F1"/>
+            <rect x="74" y="206" width="152" height="12" fill="#127C74"/>
+            <g>
+              <circle cx="90" cy="232" r="6" fill="#127C74"/>
+              <rect x="102" y="228" width="80" height="5" rx="2" fill="#7A8C87"/>
+              <circle cx="90" cy="252" r="6" fill="#E85D4A"/>
+              <rect x="102" y="248" width="64" height="5" rx="2" fill="#7A8C87"/>
+              <rect x="196" y="248" width="20" height="6" rx="3" fill="#E85D4A"/>
+              <circle cx="90" cy="272" r="6" fill="#127C74"/>
+              <rect x="102" y="268" width="72" height="5" rx="2" fill="#7A8C87"/>
+            </g>
+          </g>
+        </g>
+
+        <path d="M50 304 H250 L240 316 H60 Z" fill="#8A949E"/>
+        <rect x="128" y="306" width="44" height="4" rx="2" fill="#6B747D"/>
+      </g>
+
+      <path d="M36 176 Q 22 270 66 304" stroke="#D97757" stroke-width="26" fill="none" stroke-linecap="round"/>
+      <path d="M264 176 Q 278 270 234 304" stroke="#D97757" stroke-width="26" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g>
+    <text class="in" x="686" y="250" font-size="84" font-weight="800" fill="#FFFFFF" style="animation-delay:.3s"><tspan fill="#FFB547">Off</tspan> Pilot</text>
+    <text class="in" x="690" y="318" font-size="29" fill="#DCE6E1" style="animation-delay:.6s">Tira o Claude Code do piloto automático.</text>
+    <text class="in" x="690" y="356" font-size="22" fill="#9FB4AA" style="animation-delay:.75s">Cada sistema com cara própria.</text>
+
+    <g class="in" style="animation-delay:1s">
+      <rect x="690" y="392" width="300" height="60" rx="14" fill="#141E1A" stroke="#2E4239" stroke-width="2"/>
+      <circle class="luz" cx="716" cy="422" r="7" fill="#4ADE80"/>
+      <text x="734" y="429" font-size="19" font-weight="700" fill="#C9D8D1">piloto automático</text>
+      <rect x="902" y="406" width="74" height="32" rx="16" fill="#0B110E" stroke="#2E4239" stroke-width="2"/>
+      <text class="on" x="914" y="428" font-size="13" font-weight="800" fill="#4ADE80">ON</text>
+      <text class="off" x="942" y="428" font-size="13" font-weight="800" fill="#FFB547">OFF</text>
+      <g class="knob"><circle cx="958" cy="422" r="12" fill="#E7EFEA"/></g>
+    </g>
+
+    <g class="in" style="animation-delay:1.25s">
+      <rect x="690" y="476" width="172" height="44" rx="22" fill="#1F2E28"/>
+      <text x="776" y="505" font-size="20" font-weight="700" text-anchor="middle" fill="#CFE3D9">pergunta antes</text>
+    </g>
+    <g class="in" style="animation-delay:1.4s">
+      <rect x="874" y="476" width="164" height="44" rx="22" fill="#1F2E28"/>
+      <text x="956" y="505" font-size="20" font-weight="700" text-anchor="middle" fill="#CFE3D9">cara própria</text>
+    </g>
+    <g class="in" style="animation-delay:1.55s">
+      <rect x="1050" y="476" width="170" height="44" rx="22" fill="#1F2E28"/>
+      <text x="1135" y="505" font-size="20" font-weight="700" text-anchor="middle" fill="#CFE3D9">você aprova</text>
+    </g>
+    <text class="in" x="690" y="560" font-size="18" fill="#7F968B" style="animation-delay:1.8s">plugin para o Claude Code, em português do Brasil, v0.1.0</text>
+  </g>
+</svg>
