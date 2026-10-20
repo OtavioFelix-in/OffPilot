@@ -129,11 +129,7 @@ Com o plano aprovado, grave-o em `.offpilot/direcao.md`, na raiz do projeto, com
 - **Releia [vicios.md](vicios.md) antes de escrever**, não só no fim. Vício entra na hora de escrever, até em texto pequeno como subtítulo e rótulo.
 - **Tudo vira variável primeiro:** cores, fontes, cantos, espaçamentos. O resto do código usa só as variáveis. Valor solto no meio do CSS não entra.
 - **A ousadia fica num lugar só:** o detalhe-assinatura. Todo o resto segue o plano sem enfeite.
-- **Qualidade mínima, sempre:**
-  - funciona no celular;
-  - dá para usar só com o teclado e o foco é visível;
-  - o contraste do texto é suficiente;
-  - respeita quem desliga animação no aparelho.
+- **Qualidade mínima, sempre:** siga o `qualidade.md` da skill `revisao` (contraste, teclado, toque, larguras, movimento, formulários).
 - **Estrutura visual é informação.** Borda, numeração, rótulo e divisória só existem se dizem algo sobre o conteúdo. Numerar 01, 02, 03 só se for passo a passo de verdade.
 
 ## 10. Conferir

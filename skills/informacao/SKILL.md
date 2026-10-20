@@ -124,5 +124,5 @@ Antes de entregar, olhe a tela pronta, de preferência por print, e confira:
 3. A tarefa comum está a um clique?
 4. Algum bloco não responde a nenhuma pergunta? Apague.
 5. Os números fecham? Some as partes e compare com o total.
-6. Passe por [vicios-de-painel.md](vicios-de-painel.md).
+6. Passe por [vicios-de-painel.md](vicios-de-painel.md) e pelo `qualidade.md` da skill `revisao`.
 7. Abra no celular: a ordem continua fazendo sentido?

@@ -131,7 +131,7 @@ Depois de construir:
 - **Teste do vizinho:** um negócio de outro ramo teria a mesma lista de seções? Se sim, o esqueleto é genérico. Volte ao passo 4.
 - **Sequência pronta:** a ordem virou título, cards de recursos, depoimentos, preços, perguntas e botão final? Só pode ficar assim se cada seção responde a uma pergunta real.
 - **Conteúdo falso:** algum número, depoimento, logo de cliente ou foto foi inventado para preencher o formato? Tire, ou troque de formato.
-- Passe pela lista de vícios da `plano-visual` (seção Estrutura).
+- Passe pela lista de vícios da `plano-visual` (seção Estrutura) e pelo `qualidade.md` da skill `revisao`.
 
 ## Estudar uma referência
 
