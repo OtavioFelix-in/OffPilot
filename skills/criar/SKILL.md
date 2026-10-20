@@ -1,13 +1,13 @@
 ---
-name: offpilot
-description: Porta de entrada do Off Pilot. Tira o Claude do piloto automático ao criar ou revisar qualquer interface (sistema, painel, site, landing page, tela). Faz as perguntas que mudam o resultado uma vez só, decide a cara, a fonte, a estrutura e o conteúdo da tela antes do código, constrói e revisa o próprio trabalho. Use quando a pessoa chamar /offpilot, ou pedir uma interface que "não pareça feita por IA", "com cara própria" ou "diferente do padrão".
+name: criar
+description: Porta de entrada do Off Pilot. Tira o Claude do piloto automático ao criar ou revisar qualquer interface (sistema, painel, site, landing page, tela). Faz as perguntas que mudam o resultado uma vez só, decide a cara, a fonte, a estrutura e o conteúdo da tela antes do código, constrói e revisa o próprio trabalho. Use quando a pessoa chamar /offpilot:criar, ou pedir uma interface que "não pareça feita por IA", "com cara própria" ou "diferente do padrão".
 disable-model-invocation: true
 argument-hint: "[o que você quer criar ou revisar]"
 ---
 
 # Off Pilot
 
-A pessoa chama `/offpilot` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as outras skills do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
+A pessoa chama `/offpilot:criar` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as outras skills do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
 
 O pedido da pessoa: **$ARGUMENTS**
 
@@ -30,7 +30,7 @@ As partes não são skills: só esta skill aparece para a pessoa. Quando um pass
 
 - Leia o `.offpilot/direcao.md`, se existir. O que estiver lá já foi decidido: não pergunte de novo nem decida diferente sem a pessoa pedir.
 - Olhe o projeto: stack, CSS, marca, telas que já existem.
-- Se a pessoa chamou `/offpilot` sem dizer nada, pergunte numa frase o que ela quer criar ou revisar, com três exemplos curtos.
+- Se a pessoa chamou `/offpilot:criar` sem dizer nada, pergunte numa frase o que ela quer criar ou revisar, com três exemplos curtos.
 
 ## 2. Saber que trabalho é
 

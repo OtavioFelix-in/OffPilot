@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.2.0-FFB547?style=flat-square">
-  <img alt="comando" src="https://img.shields.io/badge/comando-%2Foffpilot-2E4239?style=flat-square">
+  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.3.0-FFB547?style=flat-square">
+  <img alt="comando" src="https://img.shields.io/badge/comando-%2Foffpilot%3Acriar-2E4239?style=flat-square">
   <img alt="idioma" src="https://img.shields.io/badge/idioma-PT--BR-1F7A3A?style=flat-square">
   <img alt="licença" src="https://img.shields.io/badge/licen%C3%A7a-MIT-2EA043?style=flat-square">
   <img alt="feito para" src="https://img.shields.io/badge/feito%20para-Claude%20Code-D97757?style=flat-square">
@@ -31,7 +31,7 @@ O Claude cai nisso porque **começa a fazer antes de pensar**. O Off Pilot coloc
 ## O que acontece
 
 <p align="center">
-  <img src="assets/fluxo.svg" alt="Perguntas, plano, construção, revisão e entrega: cinco etapas, você responde as perguntas e aprova o plano antes do código" width="100%">
+  <img src="assets/fluxo-v2.svg" alt="Perguntas, plano, construção, revisão e entrega: cinco etapas, você responde as perguntas e aprova o plano antes do código" width="100%">
 </p>
 
 1. **Perguntas, uma vez só.** De duas a quatro, cada uma com um palpite para você só confirmar. Se responder "vai", ele segue com os palpites e diz o que assumiu.
@@ -42,7 +42,7 @@ O Claude cai nisso porque **começa a fazer antes de pensar**. O Off Pilot coloc
 
 ## Um comando, seis partes
 
-Você só vê e só chama `/offpilot`. Por dentro, ele usa seis partes, cada uma na hora certa:
+Você só vê e só chama `/offpilot:criar`. Por dentro, ele usa seis partes, cada uma na hora certa:
 
 | Parte | O que faz |
 |---|---|
@@ -100,7 +100,7 @@ Copy-Item -Recurse OffPilot\skills\* $HOME\.claude\skills\
 
 ### Conferir, atualizar e desinstalar
 
-- **Conferir:** numa sessão, digite `/off`. O comando `/offpilot` tem de aparecer na lista.
+- **Conferir:** numa sessão, digite `/off`. O comando `/offpilot:criar` tem de aparecer na lista.
 - **Atualizar sozinho:** rode `/plugin`, aba **Marketplaces**, escolha `offpilot` e selecione **Enable auto-update**. Plugins de fora da loja oficial vêm com isso desligado.
 - **Atualizar agora:** `claude plugin update offpilot@offpilot`
 - **Desinstalar:** `claude plugin uninstall offpilot@offpilot` e, para tirar a loja, `claude plugin marketplace remove offpilot`.
@@ -108,10 +108,10 @@ Copy-Item -Recurse OffPilot\skills\* $HOME\.claude\skills\
 ## Usar
 
 ```
-/offpilot faz o painel do gerente de um posto de combustível
+/offpilot:criar faz o painel do gerente de um posto de combustível
 ```
 
-Para mexer numa parte só, peça ao próprio `/offpilot`: "revisa essa tela", "troca a fonte", "arruma os textos", "o que eu ponho nessa tela?".
+Para mexer numa parte só, peça ao próprio `/offpilot:criar`: "revisa essa tela", "troca a fonte", "arruma os textos", "o que eu ponho nessa tela?".
 
 ## O que ele não faz
 
@@ -123,7 +123,7 @@ Para mexer numa parte só, peça ao próprio `/offpilot`: "revisa essa tela", "t
 
 ## Leve e transparente
 
-- **Leve:** instalado e parado, ocupa uns 200 tokens por sessão, só com o nome e a descrição do `/offpilot`. As partes só carregam quando ele precisa delas.
+- **Leve:** instalado e parado, ocupa uns 200 tokens por sessão, só com o nome e a descrição do `/offpilot:criar`. As partes só carregam quando ele precisa delas.
 - **Só texto:** arquivos Markdown. Nenhum programa, nenhuma chamada de rede, nenhum hook.
 - **Memória do projeto:** as decisões aprovadas ficam em `.offpilot/direcao.md`, na raiz do seu projeto, e as próximas telas seguem o que está lá.
 

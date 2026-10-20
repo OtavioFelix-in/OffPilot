@@ -1,6 +1,6 @@
 {
   "name": "offpilot",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Tira o Claude Code do piloto automático: pergunta antes, dá cara própria a cada sistema e põe a informação certa no lugar certo.",
   "author": {
     "name": "Otávio Felix",

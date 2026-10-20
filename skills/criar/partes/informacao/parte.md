@@ -2,7 +2,7 @@
 
 Sem orientação, toda tela de sistema que o Claude monta tem a mesma ordem: quatro cards de número no topo, um gráfico grande, dois gráficos pequenos e uma tabela. O painel do posto e o do mercado saem iguais, e nenhum dos dois diz o que importa hoje. Esta skill decide o conteúdo da tela pelo que a pessoa que a usa precisa saber e fazer.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 

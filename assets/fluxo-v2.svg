@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-labelledby="t d">
-  <title id="t">O que acontece quando você chama /offpilot</title>
+  <title id="t">O que acontece quando você chama /offpilot:criar</title>
   <desc id="d">Cinco etapas em sequência: perguntas uma vez só, plano com cara, fonte e telas, construção, revisão contra a cara de IA e entrega com prints. Você responde as perguntas e aprova o plano antes do código.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -26,7 +26,7 @@
   </style>
 
   <rect width="1280" height="380" rx="28" fill="url(#bg)"/>
-  <text class="in" x="640" y="58" text-anchor="middle" font-size="30" font-weight="800" fill="#FFFFFF">O que acontece quando você chama <tspan fill="#FFB547">/offpilot</tspan></text>
+  <text class="in" x="640" y="58" text-anchor="middle" font-size="30" font-weight="800" fill="#FFFFFF">O que acontece quando você chama <tspan fill="#FFB547">/offpilot:criar</tspan></text>
 
   <path id="trilho" d="M150 190 H1130" class="rail" fill="none"/>
   <circle r="9" fill="#FFB547">

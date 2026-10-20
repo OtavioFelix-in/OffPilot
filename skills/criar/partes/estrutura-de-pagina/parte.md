@@ -2,7 +2,7 @@
 
 Sem orientação, toda página que o Claude monta tem a mesma ordem: título grande no meio, uma frase, dois botões, três cards de recursos, depoimentos, preços, perguntas e um botão final. O site do posto, o da padaria e o do escritório de advocacia saem com o mesmo esqueleto. Esta skill escolhe o formato da página a partir do que o negócio tem para mostrar e do que o visitante quer saber.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 

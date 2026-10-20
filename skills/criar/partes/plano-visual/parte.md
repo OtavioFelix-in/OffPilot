@@ -2,7 +2,7 @@
 
 Sem um plano, o Claude começa a codar com os valores de sempre, e todo sistema sai igual: a mesma cor, os mesmos cantos arredondados, o mesmo card com sombra. Esta skill decide a cara do projeto antes da primeira linha de código, a partir do produto e de quem usa, e a pessoa aprova antes de construir.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 

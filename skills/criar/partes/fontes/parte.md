@@ -2,7 +2,7 @@
 
 Sem orientação, o Claude escolhe sempre entre as mesmas dez fontes. O sistema de um mercado e o de um posto de combustível saem com a mesma letra. Esta skill faz a fonte sair do produto, e a pessoa escolhe entre três caminhos diferentes.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos desta skill:
 

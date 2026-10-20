@@ -2,7 +2,7 @@
 
 As outras skills do Off Pilot decidem uma interface antes de ela existir. Esta olha uma que já existe, feita pelo Claude, por outra IA ou por uma pessoa, e aponta o que a deixa genérica, confusa ou frágil.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 

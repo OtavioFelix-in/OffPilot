@@ -2,7 +2,7 @@
 
 O Claude escreve em português como quem traduz do inglês: "Bem-vindo de volta!", "Ops, algo deu errado", "Gerencie seus itens", "Deletar", "Sucesso!". E enche a tela de frase que não precisa estar ali: subtítulo que repete o título, legenda que explica o óbvio, boas-vindas num sistema de trabalho. Esta skill escreve só o que a tela precisa, do jeito que um brasileiro que trabalha naquele ramo escreveria.
 
-Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos desta skill:
 
