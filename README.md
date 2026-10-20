@@ -14,6 +14,9 @@ O Off Pilot é um plugin para o Claude Code, formado por várias skills, que faz
 
 Em construção. Ainda não há plugin para instalar.
 
+Para usar, chame `/offpilot` com o que você quer ("faz o painel do gerente do posto", "revisa essa tela"). O núcleo faz as perguntas uma vez só, chama as outras skills na ordem certa e revisa o próprio trabalho antes de entregar.
+
+- [skills/offpilot/](skills/offpilot/): o núcleo, a porta de entrada. Decide se é criar, revisar ou mexer numa parte, junta as perguntas, mostra o plano, as fontes e o desenho das telas numa aprovação só, constrói e revisa.
 - [skills/plano-visual/](skills/plano-visual/): decide a cara do projeto antes do código. Pergunta o que muda o visual, separa tela de vender, operar e ler, tira cor, forma e detalhe do mundo do produto e mostra o plano para aprovação. Tem a lista de vícios.
 - [skills/fontes/](skills/fontes/): escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
 - [skills/textos/](skills/textos/): escreve e revisa os textos da tela em português do Brasil. Corta o que não precisa estar ali, usa as palavras do ramo e tem regras para botão, erro, tela vazia, confirmação e números.
