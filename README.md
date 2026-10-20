@@ -12,8 +12,9 @@ O Off Pilot é um plugin para o Claude Code, formado por várias skills, que faz
 
 ## Status
 
-Em pesquisa. Ainda não há skill para instalar.
+Em construção. Ainda não há plugin para instalar.
 
+- [skills/fontes/](skills/fontes/): primeira skill. Escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
 - [referencias/](referencias/): skills abertas que já atacam parte do problema, com o que cada uma traz.
 
 ## Licença
