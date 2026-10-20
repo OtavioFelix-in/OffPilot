@@ -122,7 +122,7 @@ Também dá para chamar uma parte só: `/offpilot revisa essa tela`, `/fontes`, 
 
 ## Leve e transparente
 
-- **Não pesa:** as skills só entram no contexto quando você chama. Instalado e parado, quase não gasta nada.
+- **Leve:** instalado e parado, ocupa uns 1.300 tokens por sessão, só com o nome e a descrição das 7 skills. O conteúdo de cada skill, de 2 a 4 mil tokens, só carrega quando você chama.
 - **Só texto:** arquivos Markdown. Nenhum programa, nenhuma chamada de rede, nenhum hook.
 - **Memória do projeto:** as decisões aprovadas ficam em `.offpilot/direcao.md`, na raiz do seu projeto, e as próximas telas seguem o que está lá.
 
