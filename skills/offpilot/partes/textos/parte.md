@@ -1,14 +1,8 @@
----
-name: textos
-description: Escreve e revisa os textos de uma interface em português do Brasil, como títulos, botões, rótulos, mensagens de erro, telas vazias, avisos, confirmações, landing pages e textos de ajuda. Corta o texto que não precisa estar na tela e escreve o resto como alguém do ramo escreveria. Use ao criar ou revisar qualquer texto que aparece numa tela, ou quando a pessoa disser que o texto está estranho, genérico, com cara de tradução ou "com cara de IA".
-disable-model-invocation: true
----
-
 # Textos
 
 O Claude escreve em português como quem traduz do inglês: "Bem-vindo de volta!", "Ops, algo deu errado", "Gerencie seus itens", "Deletar", "Sucesso!". E enche a tela de frase que não precisa estar ali: subtítulo que repete o título, legenda que explica o óbvio, boas-vindas num sistema de trabalho. Esta skill escreve só o que a tela precisa, do jeito que um brasileiro que trabalha naquele ramo escreveria.
 
-As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos desta skill:
 

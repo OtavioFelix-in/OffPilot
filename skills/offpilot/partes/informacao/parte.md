@@ -1,14 +1,8 @@
----
-name: informacao
-description: Decide o que aparece numa tela de sistema, em que ordem, em que tamanho e o que fica de fora, antes de codar. Parte da pergunta que a tela precisa responder, coloca o fato mais urgente no topo, apaga bloco que não responde a nada e deixa a tarefa mais comum a um clique. Use ao criar ou refazer painel, dashboard, lista, cadastro, PDV, relatório ou qualquer tela onde alguém trabalha, ou quando a pessoa disser que a tela está poluída, confusa, com informação demais ou no lugar errado.
-disable-model-invocation: true
----
-
 # Informação
 
 Sem orientação, toda tela de sistema que o Claude monta tem a mesma ordem: quatro cards de número no topo, um gráfico grande, dois gráficos pequenos e uma tabela. O painel do posto e o do mercado saem iguais, e nenhum dos dois diz o que importa hoje. Esta skill decide o conteúdo da tela pelo que a pessoa que a usa precisa saber e fazer.
 
-As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 

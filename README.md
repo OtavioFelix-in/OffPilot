@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.1.0-FFB547?style=flat-square">
-  <img alt="skills" src="https://img.shields.io/badge/skills-7-2E4239?style=flat-square">
+  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.2.0-FFB547?style=flat-square">
+  <img alt="comando" src="https://img.shields.io/badge/comando-%2Foffpilot-2E4239?style=flat-square">
   <img alt="idioma" src="https://img.shields.io/badge/idioma-PT--BR-1F7A3A?style=flat-square">
   <img alt="licença" src="https://img.shields.io/badge/licen%C3%A7a-MIT-2EA043?style=flat-square">
   <img alt="feito para" src="https://img.shields.io/badge/feito%20para-Claude%20Code-D97757?style=flat-square">
@@ -40,11 +40,12 @@ O Claude cai nisso porque **começa a fazer antes de pensar**. O Off Pilot coloc
 4. **Revisão.** Antes de entregar, ele revisa o próprio trabalho atrás de cara de IA, informação fora de lugar e texto ruim, e corrige.
 5. **Entrega.** Prints no computador e no celular, mais a lista do que você precisa confirmar.
 
-## As 7 skills
+## Um comando, seis partes
 
-| Skill | O que faz |
+Você só vê e só chama `/offpilot`. Por dentro, ele usa seis partes, cada uma na hora certa:
+
+| Parte | O que faz |
 |---|---|
-| `offpilot` | A porta de entrada: entende o pedido, faz as perguntas e chama as outras na ordem certa |
 | `plano-visual` | A cara do projeto: cor, forma, densidade e um detalhe-assinatura tirados do mundo do produto |
 | `fontes` | Três combinações de fonte, de um acervo de 167 fontes gratuitas, fora as que viraram vício |
 | `informacao` | O que aparece numa tela de sistema, em que ordem e tamanho, e o que sai |
@@ -110,7 +111,7 @@ Copy-Item -Recurse OffPilot\skills\* $HOME\.claude\skills\
 /offpilot faz o painel do gerente de um posto de combustível
 ```
 
-Também dá para chamar uma parte só: `/offpilot revisa essa tela`, `/fontes`, `/textos`, `/informacao`, `/estrutura-de-pagina`, `/plano-visual` ou `/revisao`. Se outro plugin já usar algum desses nomes, use a forma completa, como `/offpilot:fontes`.
+Para mexer numa parte só, peça ao próprio `/offpilot`: "revisa essa tela", "troca a fonte", "arruma os textos", "o que eu ponho nessa tela?".
 
 ## O que ele não faz
 
@@ -122,7 +123,7 @@ Também dá para chamar uma parte só: `/offpilot revisa essa tela`, `/fontes`, 
 
 ## Leve e transparente
 
-- **Leve:** instalado e parado, ocupa uns 1.300 tokens por sessão, só com o nome e a descrição das 7 skills. O conteúdo de cada skill, de 2 a 4 mil tokens, só carrega quando você chama.
+- **Leve:** instalado e parado, ocupa uns 200 tokens por sessão, só com o nome e a descrição do `/offpilot`. As partes só carregam quando ele precisa delas.
 - **Só texto:** arquivos Markdown. Nenhum programa, nenhuma chamada de rede, nenhum hook.
 - **Memória do projeto:** as decisões aprovadas ficam em `.offpilot/direcao.md`, na raiz do seu projeto, e as próximas telas seguem o que está lá.
 

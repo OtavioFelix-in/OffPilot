@@ -1,14 +1,8 @@
----
-name: fontes
-description: Escolhe a fonte de um sistema, site ou tela a partir do produto e de quem usa, e apresenta 3 combinações para a pessoa escolher antes de codar. Use sempre que for criar ou refazer uma interface e ainda não houver fonte definida, ou quando a pessoa disser que a fonte está genérica, repetida ou "com cara de IA".
-disable-model-invocation: true
----
-
 # Fontes
 
 Sem orientação, o Claude escolhe sempre entre as mesmas dez fontes. O sistema de um mercado e o de um posto de combustível saem com a mesma letra. Esta skill faz a fonte sair do produto, e a pessoa escolhe entre três caminhos diferentes.
 
-As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos desta skill:
 

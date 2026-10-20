@@ -9,13 +9,11 @@ argument-hint: "[o que você quer criar ou revisar]"
 
 A pessoa chama `/offpilot` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as outras skills do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
 
-As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
-
 O pedido da pessoa: **$ARGUMENTS**
 
-As skills que ela usa:
+As partes que ela usa, cada uma em `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md`:
 
-| Skill | Decide |
+| Parte | Decide |
 |---|---|
 | `plano-visual` | a cara do projeto: cor, forma, densidade, detalhe-assinatura |
 | `fontes` | a fonte, entre 3 combinações |
@@ -24,9 +22,9 @@ As skills que ela usa:
 | `textos` | todo texto da tela, em português do Brasil |
 | `revisao` | a revisão do que foi feito, e a qualidade mínima |
 
-## Como usar as outras skills
+## Como usar as partes
 
-As skills abaixo não entram sozinhas: o núcleo as chama. Quando um passo mandar rodar uma delas, leia o `SKILL.md` dela em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/SKILL.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
+As partes não são skills: só esta skill aparece para a pessoa. Quando um passo mandar rodar uma parte (o texto às vezes a chama de skill), leia `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
 
 ## 1. Ler o pedido e o projeto
 
@@ -38,7 +36,7 @@ As skills abaixo não entram sozinhas: o núcleo as chama. Quando um passo manda
 
 - **Criar algo novo:** sistema, painel, site, landing page, ou um sistema com site. Siga o passo 4.
 - **Revisar algo pronto:** "revisa", "tá genérico", "tá poluído", "melhora essa tela". Siga o passo 5.
-- **Uma parte só:** chame só a skill dela, mantendo o resto como está:
+- **Uma parte só:** rode só aquela parte, mantendo o resto como está:
   - "troca a fonte" → `fontes`;
   - "arruma os textos" → `textos`;
   - "o que eu ponho nessa tela?" → `informacao`;

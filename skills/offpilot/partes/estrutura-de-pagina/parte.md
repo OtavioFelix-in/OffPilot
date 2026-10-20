@@ -1,14 +1,8 @@
----
-name: estrutura-de-pagina
-description: Decide o formato de uma página de site antes de codar, ou seja, quais seções ela tem, em que ordem e o que aparece na primeira tela. A escolha parte do conteúdo que existe de verdade e das perguntas de quem visita. Use ao criar ou refazer um site, uma landing page, uma página de produto, institucional, de evento ou um portfólio, ou quando a pessoa mandar um site ou print de referência para estudar. Não é para tela de sistema.
-disable-model-invocation: true
----
-
 # Estrutura de página
 
 Sem orientação, toda página que o Claude monta tem a mesma ordem: título grande no meio, uma frase, dois botões, três cards de recursos, depoimentos, preços, perguntas e um botão final. O site do posto, o da padaria e o do escritório de advocacia saem com o mesmo esqueleto. Esta skill escolhe o formato da página a partir do que o negócio tem para mostrar e do que o visitante quer saber.
 
-As outras skills do Off Pilot ficam em pastas irmãs desta, em `${CLAUDE_SKILL_DIR}/../<nome-da-skill>/`. Quando este texto citar uma skill ou um arquivo de outra skill, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `offpilot`. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
 
 Arquivos e skills ligados a esta:
 
