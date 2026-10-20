@@ -26,7 +26,7 @@ Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira 
 - **Página:**
   - título centralizado, uma frase embaixo, dois botões e um print do produto;
   - três cards iguais de "recursos", cada um com um ícone;
-  - grade bento de blocos arredondados.
+  - grade bento de blocos arredondados;
   - a sequência pronta: título, logos de clientes, três cards de recursos, depoimentos, preços, perguntas e botão final, em qualquer ramo (ver skill `estrutura-de-pagina`).
 - **Sistema:**
   - menu lateral escuro com o item ativo numa pílula colorida;
