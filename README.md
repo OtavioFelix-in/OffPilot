@@ -23,4 +23,4 @@ Em construção. Ainda não há plugin para instalar.
 
 ## Licença
 
-MIT (a definir no primeiro código). As pastas em `referencias/` mantêm a licença de cada autor.
+MIT (a definir). As cópias que ainda estão em `referencias/` mantêm a licença de cada autor até serem reescritas.
