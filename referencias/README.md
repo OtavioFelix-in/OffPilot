@@ -2,7 +2,7 @@
 
 Skills abertas que já atacam parte do problema do Off Pilot. Estão aqui para estudo: cada pasta é uma cópia sem alteração dos arquivos `.md` da skill original (e dos dados, no caso do UI/UX Pro Max), com a licença do autor ao lado. Nada daqui é código do Off Pilot.
 
-Baixado em 2026-10-20.
+Baixado em 2026-10-20. A análise de cada uma, e a verificação de segurança, está em [ANALISE.md](ANALISE.md).
 
 ## O que o Off Pilot procura nelas
 
