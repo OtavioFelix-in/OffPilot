@@ -15,7 +15,7 @@ O Off Pilot é um plugin para o Claude Code, formado por várias skills, que faz
 Em construção. Ainda não há plugin para instalar.
 
 - [skills/plano-visual/](skills/plano-visual/): decide a cara do projeto antes do código. Pergunta o que muda o visual, separa tela de vender, operar e ler, tira cor, forma e detalhe do mundo do produto e mostra o plano para aprovação. Tem a lista de vícios.
-- [skills/fontes/](skills/fontes/): Escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
+- [skills/fontes/](skills/fontes/): escolhe a fonte pelo mundo do produto e mostra 3 combinações para a pessoa escolher. Acervo de 167 fontes gratuitas, fora as queimadas.
 - [referencias/](referencias/): skills abertas que já atacam parte do problema, com o que cada uma traz.
 
 ## Licença
