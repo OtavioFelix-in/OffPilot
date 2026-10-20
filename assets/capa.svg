@@ -83,8 +83,6 @@
         <path d="M188 228 Q204 218 220 228" fill="none" stroke="#1B120F" stroke-width="7" stroke-linecap="round"/>
         <path d="M130 224 H84 M278 224 H316" stroke="#1B120F" stroke-width="7" stroke-linecap="round"/>
       </g>
-      <ellipse cx="128" cy="292" rx="14" ry="8" fill="#F29A7C" opacity=".6"/>
-      <ellipse cx="282" cy="292" rx="14" ry="8" fill="#F29A7C" opacity=".6"/>
 
       <g class="tilt">
         <rect x="380" y="170" width="230" height="148" rx="12" fill="#0A0F0D" transform="translate(5 7)" opacity=".3"/>
