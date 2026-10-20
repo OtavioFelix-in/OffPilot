@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/capa.svg" alt="Off Pilot: mascote laranja de óculos segurando um notebook, com um interruptor de piloto automático que desliga" width="100%">
+  <img src="assets/capa.svg?v=3" alt="Off Pilot: mascote laranja de óculos segurando um notebook, com um interruptor de piloto automático que desliga" width="100%">
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ O Claude cai nisso porque **começa a fazer antes de pensar**. O Off Pilot coloc
 ## O que acontece
 
 <p align="center">
-  <img src="assets/fluxo.svg" alt="Perguntas, plano, construção, revisão e entrega: cinco etapas, você responde as perguntas e aprova o plano antes do código" width="100%">
+  <img src="assets/fluxo.svg?v=3" alt="Perguntas, plano, construção, revisão e entrega: cinco etapas, você responde as perguntas e aprova o plano antes do código" width="100%">
 </p>
 
 1. **Perguntas, uma vez só.** De duas a quatro, cada uma com um palpite para você só confirmar. Se responder "vai", ele segue com os palpites e diz o que assumiu.
