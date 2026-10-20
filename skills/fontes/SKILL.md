@@ -79,7 +79,7 @@ Depois espere a pessoa escolher. Se ela disser "tanto faz" ou "escolhe você", f
 
 ## 5. Registrar
 
-Depois da escolha, grave em `.offpilot/escolhas.md`, na raiz do projeto:
+Depois da escolha, grave em `.offpilot/direcao.md`, na raiz do projeto, o mesmo arquivo em que a skill `plano-visual` guarda o plano:
 
 ```markdown
 ## Fontes

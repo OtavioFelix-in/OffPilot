@@ -13,7 +13,7 @@ Cada pasta tem o nome do que a skill faz. A origem e a licença de cada uma est�
 
 | Pasta | O que faz | Frente |
 |---|---|---|
-| [plano-visual](plano-visual/) | Monta um plano de cor, fonte e layout e o compara com o que sairia para qualquer pedido parecido antes de codar. | visual, textos |
+| plano-visual (reescrita: [skills/plano-visual](../skills/plano-visual/)) | Monta um plano de cor, fonte e layout e o compara com o que sairia para qualquer pedido parecido antes de codar. | visual, textos |
 | [refino-de-interface](refino-de-interface/) | Separa a tela pelo uso (vender, operar, ler), faz as perguntas iniciais e tem comandos de revisão, corte e acabamento. | visual, informação, textos |
 | [direcao-de-arte](direcao-de-arte/) | Tira a ideia visual do mundo do cliente. Tem um guia de telas de sistema: a pergunta da tela, o que vem primeiro, o que sai. | visual, informação |
 | [estrutura-de-pagina](estrutura-de-pagina/) | Escolhe a estrutura da página antes da cor e não repete estrutura de um projeto para o outro. | visual, estrutura |
@@ -22,7 +22,7 @@ Cada pasta tem o nome do que a skill faz. A origem e a licença de cada uma est�
 
 ### plano-visual
 
-Curta (71 linhas). Vale ler inteira primeiro.
+Já reescrita como skill do Off Pilot, em [skills/plano-visual](../skills/plano-visual/). O que ela era antes:
 
 - Manda descobrir **o assunto, o público e a função principal** antes de desenhar. A cara do projeto sai do mundo do assunto.
 - Lista os cinco visuais em que o design gerado por IA se amontoa hoje, incluindo o "remédio" que virou vício (fundo creme + serifa + terracota).
