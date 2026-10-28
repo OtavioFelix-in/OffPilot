@@ -44,9 +44,17 @@ Se der, abra a tela e tire print no computador e no celular. Julgue pelo que apa
 
 ## 3. Diagnosticar em seis passadas
 
+**Antes das passadas, meça.** Se o `node` existir, rode os dois verificadores da skill `criar`, onde `${CLAUDE_SKILL_DIR}` é a pasta dela, a que o SKILL.md mostra no começo:
+
+- `node ${CLAUDE_SKILL_DIR}/scripts/fontes-queimadas.mjs <pasta do projeto>`, com `--permitir "<a fonte>"` se a pessoa pediu uma fonte da lista pelo nome;
+- `node ${CLAUDE_SKILL_DIR}/scripts/contraste.mjs <arquivo .css ou .html>`, com `--fundo <cor>` quando o HTML mostrar o fundo de uma cor que o script disse não saber.
+
+O resultado do script vence a sua impressão: fonte acusada ou contraste abaixo do mínimo entra na lista, mesmo que a tela pareça boa. O que o script diz que não sabe, confira você. Sem `node`, faça as duas checagens lendo o código e diga na entrega que foram manuais.
+
 Faça as passadas nesta ordem e anote cada problema com o lugar exato onde está.
 
 **1. Cara de IA.**
+- **Se a tela é sua,** porque você acabou de construí-la, esta passada vai para um subagente às cegas, como manda o passo 4.3 do SKILL.md. Use a lista que ele devolver.
 - Passe a tela pelas listas de vícios: `vicios.md` (plano-visual), `vicios-de-painel.md` (informacao) e `vicios-de-tela.md` (textos).
 - **Teste do vizinho:** a tela serviria igualzinha para um negócio de outro ramo? O painel do posto trocado pelo do mercado, sem mexer em nada além do nome? Se sim, a tela não tem cara própria.
 

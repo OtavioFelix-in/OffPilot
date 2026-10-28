@@ -17,6 +17,7 @@ O formato segue o [Keep a Changelog 1.1.0](https://keepachangelog.com/pt-BR/1.1.
 
 ### Modificado
 
+- A revisão roda os dois verificadores antes das passadas, se houver `node`, e o resultado deles vence a impressão do modelo. Na revisão do próprio trabalho, o julgamento de cara de IA vai para um subagente que não sabe quem fez a tela. Sem `node` ou sem subagente, ele faz como antes e avisa. O comando pode rodar os dois verificadores sem pedir permissão (`allowed-tools`).
 - A fonte vai sempre junto com o projeto, em `woff2` e só nos pesos usados. Antes, isso só valia para sistema sem internet. Fonte puxada de CDN manda o IP do visitante para outra empresa. CDN só entra se a pessoa pedir. A revisão confere isso.
 - O `SKILL.md` lista cada arquivo das partes pelo caminho, com a hora de ler cada um.
 - As partes deixam de se chamar "skill" no texto. Skill agora é só o `/offpilot:criar`.

@@ -3,6 +3,7 @@ name: criar
 description: Cria ou revisa uma tela, um sistema ou um site. Pergunta antes, mostra o plano de cara, fonte e conteúdo, e só escreve o código depois que você aprova.
 disable-model-invocation: true
 argument-hint: "[o que você quer criar ou revisar]"
+allowed-tools: Bash(node ${CLAUDE_SKILL_DIR}/scripts/*)
 ---
 
 # Off Pilot
@@ -100,7 +101,26 @@ São no máximo duas esperas antes do código: as respostas às perguntas e esta
 
 ### 4.3 Revisar o próprio trabalho
 
-Antes de entregar, rode a `revisao` na tela que você fez, com as seis passadas. Como o trabalho é seu, **corrija sozinho** os problemas dos níveis 1 e 2 (impede o uso e cara de IA) e os que fogem do plano aprovado. Os de nível 3 e 4, corrija se forem simples; se mudam alguma decisão aprovada, liste para a pessoa.
+Antes de entregar, rode a `revisao` na tela que você fez, nesta ordem:
+
+1. **Meça o que dá para medir.** Se o `node` existir, rode os dois verificadores, com o caminho escrito assim:
+   ```
+   node ${CLAUDE_SKILL_DIR}/scripts/fontes-queimadas.mjs <pasta do projeto>
+   node ${CLAUDE_SKILL_DIR}/scripts/contraste.mjs <arquivo .css, ou .html com <style>>
+   ```
+   - Se a pessoa pediu pelo nome uma fonte da lista, acrescente `--permitir "<a fonte>"`.
+   - Se o contraste disser que não sabe sobre que fundo fica uma cor, veja no HTML e rode de novo com `--fundo <cor ou --variável>`.
+   - **O resultado do script vence a sua impressão.** Fonte acusada ou contraste abaixo do mínimo é problema, mesmo que a tela pareça boa.
+   - Se o comando falhar porque não há `node`, faça as duas checagens lendo o código e diga na entrega que foram manuais.
+2. **Peça o julgamento de cara de IA às cegas.** Quem fez não deve ser o único a julgar. Passe a passada 1 da `revisao` (cara de IA e teste do vizinho) a um subagente, pela ferramenta de subagente, e mande só:
+   - os prints da tela; sem print, o caminho do HTML;
+   - o caminho do `.offpilot/direcao.md`;
+   - os caminhos de `${CLAUDE_SKILL_DIR}/partes/plano-visual/vicios.md`, `${CLAUDE_SKILL_DIR}/partes/informacao/vicios-de-painel.md` e `${CLAUDE_SKILL_DIR}/partes/textos/vicios-de-tela.md`.
+
+   Não conte que foi você quem fez a tela nem resuma esta conversa. Peça a lista do que tem cara de IA, com o lugar exato, e a resposta ao teste do vizinho. Sem ferramenta de subagente, faça a passada você mesmo e avise na entrega que a revisão não foi às cegas.
+3. **Faça as passadas 2 a 6** da `revisao`.
+
+Como o trabalho é seu, **corrija sozinho** os problemas dos níveis 1 e 2 (impede o uso e cara de IA) e os que fogem do plano aprovado. Os de nível 3 e 4, corrija se forem simples; se mudam alguma decisão aprovada, liste para a pessoa.
 
 ### 4.4 Entregar
 
