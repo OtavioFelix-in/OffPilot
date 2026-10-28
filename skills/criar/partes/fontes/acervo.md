@@ -1,5 +1,23 @@
 # Acervo de fontes
 
+## Conteúdo
+
+- 1. Sinalização, estrada e transporte
+- 2. Etiqueta, cartaz de oferta e embalagem
+- 3. Jornal, impresso e leitura longa
+- 4. Formulário, repartição e máquina de escrever
+- 5. Painel, instrumento e técnica
+- 6. Escritório funcional, sem ser Inter
+- 7. Humanista, artesanal e acolhedor
+- 8. Escrita à mão e quadro
+- 9. Geométrica e arquitetura
+- 10. Clássica e institucional
+- 11. Esporte, academia e cartaz condensado
+- 12. Retrô, letreiro e anos 60-70
+- 13. Serifa quadrada, oficina e campo
+- 14. Pixel, terminal e jogo
+- 15. Gótica e medieval
+
 São 167 fontes gratuitas do Google Fonts, agrupadas pelo que lembram. Todas têm acento e ç (`latin-ext`) e nenhuma está em [queimadas.md](queimadas.md). As famosas ficaram de fora de propósito: o acervo usa a faixa do meio do ranking, com fontes boas que pouca gente usa.
 
 Conferido na base pública do Google Fonts em 2026-10.

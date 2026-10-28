@@ -1,5 +1,18 @@
 # Informação
 
+## Conteúdo
+
+- Quando usar
+- 1. Fazer o inventário
+- 2. Escrever a pergunta da tela
+- 3. Achar o achado
+- 4. Listar os blocos como respostas
+- 5. Deixar a tarefa comum a um clique
+- 6. Desenhar e esperar o ok
+- 7. Montar com as regras de cada peça
+- 8. Registrar
+- 9. Conferir
+
 Sem orientação, toda tela de sistema que o Claude monta tem a mesma ordem: quatro cards de número no topo, um gráfico grande, dois gráficos pequenos e uma tabela. O painel do posto e o do mercado saem iguais, e nenhum dos dois diz o que importa hoje. Esta parte decide o conteúdo da tela pelo que a pessoa que a usa precisa saber e fazer.
 
 Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.

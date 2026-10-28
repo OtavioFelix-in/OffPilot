@@ -1,5 +1,17 @@
 # Textos
 
+## Conteúdo
+
+- Quando não usar
+- 1. Listar os textos da tela
+- 2. Teste do apagar
+- 3. Falar a língua do ramo
+- 4. Escrever cada peça
+- 5. Tom pelo tipo de tela
+- 6. Texto corrido
+- 7. Conferir
+- Quando não mexer
+
 O Claude escreve em português como quem traduz do inglês: "Bem-vindo de volta!", "Ops, algo deu errado", "Gerencie seus itens", "Deletar", "Sucesso!". E enche a tela de frase que não precisa estar ali: subtítulo que repete o título, legenda que explica o óbvio, boas-vindas num sistema de trabalho. Esta parte escreve só o que a tela precisa, do jeito que um brasileiro que trabalha naquele ramo escreveria.
 
 Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.

@@ -1,5 +1,20 @@
 # Plano visual
 
+## Conteúdo
+
+- Quando não usar
+- 1. Ler o que já existe
+- 2. Perguntar o que muda o visual
+- 3. Saber o tipo de tela
+- 4. Achar o mundo do produto
+- 5. Montar o plano
+- 6. Testar contra o genérico
+- 7. Mostrar e esperar o ok
+- 8. Registrar
+- 9. Construir
+- 10. Conferir
+- Textos da tela
+
 Sem um plano, o Claude começa a codar com os valores de sempre, e todo sistema sai igual: a mesma cor, os mesmos cantos arredondados, o mesmo card com sombra. Esta parte decide a cara do projeto antes da primeira linha de código, a partir do produto e de quem usa, e a pessoa aprova antes de construir.
 
 Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.

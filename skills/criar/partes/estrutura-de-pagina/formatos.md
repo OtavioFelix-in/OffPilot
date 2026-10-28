@@ -1,5 +1,15 @@
 # Formatos de página
 
+## Conteúdo
+
+- A. O negócio na frente: 1. Balcão, 2. Cardápio, 3. Agenda
+- B. O produto na frente: 4. Produto em uso, 5. Página dividida, 6. Painel fixo, 7. Grade de blocos, 8. Catálogo, 9. Mostruário
+- C. A prova na frente: 10. Número na frente, 11. Depoimento na frente, 12. Portfólio
+- D. A palavra na frente: 13. Carta, 14. Documento, 15. Manifesto, 16. Perguntas e respostas
+- E. A imagem na frente: 17. Fotográfica, 18. Primeira tela tomada, 19. Mapa
+- F. A organização na frente: 20. Etapas, 21. Índice, 22. Prateleiras, 23. Bancada, 24. Ficha editorial
+- Misturas
+
 São 24 formatos, agrupados pelo que vai na frente da página. Cada formato tem:
 
 - **Como é:** o desenho geral, de cima para baixo.

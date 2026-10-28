@@ -7,6 +7,17 @@ argument-hint: "[o que você quer criar ou revisar]"
 
 # Off Pilot
 
+## Conteúdo
+
+- As partes e quando ler cada arquivo
+- 1. Ler o pedido e o projeto
+- 2. Saber que trabalho é
+- 3. Perguntar uma vez só
+- 4. Criar: decidir, construir, revisar o próprio trabalho, entregar
+- 5. Revisar
+- Regras que valem sempre
+- O arquivo `.offpilot/direcao.md`
+
 A pessoa chama `/offpilot:criar` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as partes do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
 
 O pedido da pessoa: **$ARGUMENTS**

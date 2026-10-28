@@ -1,5 +1,16 @@
 # Revisão
 
+## Conteúdo
+
+- Regra de ouro: revisar não é refazer
+- 1. Entender a tela
+- 2. Ver a tela
+- 3. Diagnosticar em seis passadas
+- 4. Entregar a lista
+- 5. Corrigir
+- 6. Mostrar antes e depois
+- Pedidos específicos
+
 As outras partes do Off Pilot decidem uma interface antes de ela existir. Esta olha uma que já existe, feita pelo Claude, por outra IA ou por uma pessoa, e aponta o que a deixa genérica, confusa ou frágil.
 
 Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.

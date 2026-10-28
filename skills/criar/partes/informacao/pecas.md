@@ -1,5 +1,18 @@
 # Peças da tela
 
+## Conteúdo
+
+- Número de destaque
+- Comparação
+- Gráfico
+- Tabela
+- Lista e fila
+- Formulário
+- Estados
+- Dados que fecham
+- Densidade
+- Navegação
+
 Regras para cada tipo de informação numa tela de sistema. Formatos de número, data e dinheiro seguem a parte `textos`.
 
 ## Número de destaque

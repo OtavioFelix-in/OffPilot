@@ -1,5 +1,19 @@
 # Estrutura de página
 
+## Conteúdo
+
+- Quando usar
+- 1. Ler o que já existe
+- 2. Levantar o conteúdo real
+- 3. Saber o que o visitante quer
+- 4. Escrever o argumento
+- 5. Escolher o formato
+- 6. Mostrar e esperar a escolha
+- 7. Montar o esqueleto
+- 8. Registrar
+- 9. Conferir
+- Estudar uma referência
+
 Sem orientação, toda página que o Claude monta tem a mesma ordem: título grande no meio, uma frase, dois botões, três cards de recursos, depoimentos, preços, perguntas e um botão final. O site do posto, o da padaria e o do escritório de advocacia saem com o mesmo esqueleto. Esta parte escolhe o formato da página a partir do que o negócio tem para mostrar e do que o visitante quer saber.
 
 Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
