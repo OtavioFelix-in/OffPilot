@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="hero">
+  <div>
+    <h1>Bem-vindo de volta, João! 👋</h1>
+    <p class="subtitulo">Gerencie suas finanças de forma simples e inteligente</p>
+  </div>
+  <div class="avatar">JS</div>
+</header>
+
+<main>
+  <section class="cards">
+    <div class="card">
+      <span class="icone">💰</span>
+      <p class="rotulo">Saldo Total</p>
+      <p class="valor">R$12450.80</p>
+      <p class="variacao">↑ 12.5%</p>
+    </div>
+    <div class="card">
+      <span class="icone">📈</span>
+      <p class="rotulo">Entradas</p>
+      <p class="valor">R$8320.00</p>
+      <p class="variacao">↑ 8.2%</p>
+    </div>
+    <div class="card">
+      <span class="icone">📉</span>
+      <p class="rotulo">Saídas</p>
+      <p class="valor">R$5110.45</p>
+      <p class="variacao negativa">↓ 3.1%</p>
+    </div>
+    <div class="card">
+      <span class="icone">✨</span>
+      <p class="rotulo">Rendimento</p>
+      <p class="valor">R$42.17</p>
+      <p class="variacao">↑ 0.8%</p>
+    </div>
+  </section>
+
+  <section class="painel">
+    <div class="painel-topo">
+      <h3>Suas Transações</h3>
+      <div class="botao-filtro" onclick="filtrar()">Filtrar 🔍</div>
+    </div>
+    <p class="ajuda">Aqui você vê todas as suas transações recentes.</p>
+    <div class="grafico">[gráfico de pizza por categoria]</div>
+    <table>
+      <thead>
+        <tr><th>Item</th><th>Data</th><th>Valor</th><th>Status</th><th></th></tr>
+      </thead>
+      <tbody>
+        <tr><td>🛒 Compra</td><td>10/27/2026</td><td>-R$89.90</td><td><span class="ok">Sucesso!</span></td><td><button class="deletar">Deletar</button></td></tr>
+        <tr><td>💸 Pix recebido</td><td>10/26/2026</td><td>R$1500</td><td><span class="ok">Sucesso!</span></td><td><button class="deletar">Deletar</button></td></tr>
+        <tr><td>🍔 Restaurante</td><td>10/25/2026</td><td>-R$45.5</td><td><span class="pendente">Pendente</span></td><td><button class="deletar">Deletar</button></td></tr>
+        <tr><td>Item 4</td><td>10/24/2026</td><td>-R$1200.00</td><td><span class="ok">Sucesso!</span></td><td><button class="deletar">Deletar</button></td></tr>
+      </tbody>
+    </table>
+    <p class="erro" hidden>Ops! Algo deu errado. Tente novamente mais tarde.</p>
+    <a class="mais" href="#">Clique aqui para ver mais</a>
+  </section>
+</main>
+
+<script>
+function filtrar() { alert("Em breve! 🚀"); }
+</script>
+</body>
+</html>
