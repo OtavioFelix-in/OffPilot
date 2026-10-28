@@ -3,7 +3,7 @@ description: 'Etapa B: com as respostas, mostra o plano e ainda não constrói'
 tags: [etapa-b, posto]
 max_turns: 30
 timeout_seconds: 900
-allowed_tools: [Read, Glob, Grep, Skill]
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit]
 ---
 
 1. Isso, o gerente no computador do escritório. Às vezes ele abre no celular, mas é raro.

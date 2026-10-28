@@ -3,7 +3,7 @@ description: 'Etapa B: com as respostas, mostra o plano e ainda não constrói'
 tags: [etapa-b, contabilidade]
 max_turns: 30
 timeout_seconds: 900
-allowed_tools: [Read, Glob, Grep, Skill]
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit]
 ---
 
 1. Isso: dono de pequena empresa, quase sempre no celular, e a ação é chamar no WhatsApp.
