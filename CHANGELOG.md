@@ -9,6 +9,7 @@ O formato segue o [Keep a Changelog 1.1.0](https://keepachangelog.com/pt-BR/1.1.
 ### Adicionado
 
 - Avaliações em `evals/` para o `claude plugin eval`: 15 casos em seis ramos (posto de combustível, estoque de insumos agrícolas, agenda de clínica, landing page de contabilidade, app de academia e extrato de conta digital). Cobrem as perguntas antes do código, o plano, a construção, o "decide você", o pedido que vence a regra e a revisão, mais duas linhas de base com o mesmo pedido sem o comando.
+- Dois verificadores em Node, sem dependência nenhuma, em `skills/criar/scripts/`. O `fontes-queimadas.mjs` lê a lista do `queimadas.md` e acha cada fonte escolhida dela no projeto, com arquivo e linha. O `contraste.mjs` calcula o contraste dos pares de cor pelo cálculo da WCAG 2.2 e diz quando não sabe sobre que fundo uma cor fica, em vez de chutar.
 - `evals/limpar-historico.mjs`, que tira da conversa gravada tudo o que não é conversa (e-mail da conta, prompt de sistema, caminhos) antes de ela virar caso.
 - `CHANGELOG.md`, este arquivo.
 - `MANUTENCAO.md`, com a data de cada lista de vícios e de fontes e o que revisar nela. Fica fora de `skills/`, então não gasta token.
