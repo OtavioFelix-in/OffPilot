@@ -56,13 +56,13 @@ claude plugin eval . --runs 1 --ablation none --model claude-sonnet-5-5 --judge-
 
 ### Histórico gravado
 
-Os casos `b-*` e `c-*` continuam uma conversa gravada em `historico.jsonl`. Esse histórico tem dentro o `SKILL.md` do dia em que foi gravado. **Se o `SKILL.md` ou uma parte mudar, grave os históricos de novo**, senão o caso testa a versão velha. Ele também guarda o caminho do plugin na máquina que gravou. Em outra máquina, grave de novo.
+Os casos `b-*` e `c-*` continuam uma conversa gravada em `historico.jsonl`. Esse histórico tem dentro o `SKILL.md` do dia em que foi gravado. **Se o `SKILL.md` ou uma parte mudar, grave os históricos de novo**, senão o caso testa a versão velha. O caminho do plugin na máquina que gravou vira `/plugin/offpilot`, para nenhum caminho de computador entrar no repositório.
 
 Para gravar:
 
 1. Etapa B: rode o caso da etapa A com `--keep-temp` (por exemplo `--case a-posto`). O comando mostra a pasta temporária de cada execução, e a sessão fica em `<pasta temporária>/config/projects/*/<id>.jsonl`. Limpe com `node evals/limpar-historico.mjs <sessao.jsonl> evals/b-posto/historico.jsonl`.
 2. Etapa C: rode o caso B. Ao retomar um histórico, o próprio eval grava a sessão inteira, A e B juntos, em `evals/b-posto/<id>.jsonl`. Limpe com `node evals/limpar-historico.mjs evals/b-posto/<id>.jsonl evals/c-posto/historico.jsonl`.
-3. O `limpar-historico.mjs` guarda só a conversa, sem o raciocínio interno, e se recusa a gravar se sobrar e-mail, caminho de pasta temporária ou dado da conta.
+3. O `limpar-historico.mjs` guarda só a conversa, sem o raciocínio interno, e troca a pasta do plugin por `/plugin/offpilot` e se recusa a gravar se sobrar e-mail, caminho de usuário do computador, caminho de pasta temporária ou dado da conta.
 4. **A sessão crua tem o e-mail da conta, o código da organização e o prompt de sistema inteiro.** O `.gitignore` já ignora os `evals/*/<id>.jsonl` que o eval grava, mas apague esses arquivos e as pastas temporárias depois de usar.
 
 ### Lista de fontes copiada

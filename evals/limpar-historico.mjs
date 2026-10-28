@@ -1,4 +1,6 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, resolve } from "node:path";
 
 const USO = "uso: node evals/limpar-historico.mjs <sessao.jsonl> <historico.jsonl>";
 
@@ -45,18 +47,30 @@ function semPastaDaExecucao(texto) {
   return limpo;
 }
 
+const PLUGIN = "/plugin/offpilot";
+const raiz = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+
+function semPastaDoPlugin(texto) {
+  let limpo = texto;
+  for (const v of [raiz.replaceAll("\\", "\\\\"), raiz.replaceAll("\\", "/")]) {
+    limpo = limpo.replaceAll(v, PLUGIN);
+  }
+  return limpo;
+}
+
 let anterior = null;
 const linhas = conversa.map((registro) => {
   const { gitBranch, ...resto } = registro;
   const religado = { ...resto, parentUuid: anterior, cwd: "." };
   anterior = registro.uuid;
-  return semPastaDaExecucao(JSON.stringify(religado));
+  return semPastaDoPlugin(semPastaDaExecucao(JSON.stringify(religado)));
 });
 
 const texto = linhas.join("\n") + "\n";
 const proibidos = [
   [/[\w.+-]+@[\w-]+\.[\w.]+/, "endereço de e-mail"],
   [/AppData|[\\/]tmp[\\/]claude-eval/i, "caminho de pasta temporária"],
+  [/[A-Za-z]:[\\/]+Users|\/c\/Users|\/home\/[\w.-]+|\/Users\/[\w.-]+/i, "caminho de usuário do computador"],
   [/organizationUuid|credential_org|session_context|prompt_snapshot/, "dado da conta ou do sistema"],
 ];
 for (const [padrao, nome] of proibidos) {
