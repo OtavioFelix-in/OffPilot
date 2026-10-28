@@ -2,8 +2,6 @@
 
 O que a IA põe em toda tela de sistema, seja do posto, do mercado ou da clínica. Cada vício tem o que fazer no lugar.
 
-Lista de 2026-10. Revisar a cada seis meses.
-
 ## Estrutura
 
 | Vício | No lugar |

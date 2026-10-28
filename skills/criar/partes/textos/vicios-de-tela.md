@@ -2,8 +2,6 @@
 
 Os textos que a IA põe em toda interface, seja qual for o produto. Cada um tem o que fazer no lugar.
 
-Lista de 2026-10. Revisar a cada seis meses.
-
 ## Boas-vindas e saudação
 
 | Vício | No lugar |

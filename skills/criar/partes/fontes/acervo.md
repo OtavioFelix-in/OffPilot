@@ -20,8 +20,6 @@
 
 São 167 fontes gratuitas do Google Fonts, agrupadas pelo que lembram. Todas têm acento e ç (`latin-ext`) e nenhuma está em [queimadas.md](queimadas.md). As famosas ficaram de fora de propósito: o acervo usa a faixa do meio do ranking, com fontes boas que pouca gente usa.
 
-Conferido na base pública do Google Fonts em 2026-10.
-
 **Como ler as tabelas:**
 
 - **Papel:**

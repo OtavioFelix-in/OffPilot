@@ -2,7 +2,7 @@
 
 O que a IA repete em toda interface que gera, seja qual for o produto. Nenhum destes itens é proibido. São valores padrão, não escolhas, e por isso só entram com um motivo que venha do produto ou do pedido.
 
-Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira vício na rodada seguinte: o creme com terracota nasceu como "remédio" contra o degradê roxo e hoje é um dos vícios mais reconhecíveis.
+Cada correção que vira moda vira vício na rodada seguinte: o creme com terracota nasceu como "remédio" contra o degradê roxo e hoje é um dos vícios mais reconhecíveis.
 
 ## Cor
 

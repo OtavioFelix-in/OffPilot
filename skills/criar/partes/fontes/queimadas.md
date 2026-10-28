@@ -4,8 +4,6 @@ Estas fontes não são ruins. Ficaram tão comuns em interface gerada por IA, ou
 
 Só entram se a pessoa pedir pelo nome, ou se já forem a fonte do projeto ou da marca.
 
-Lista de 2026-10. Revisar a cada seis meses: toda fonte que vira a "alternativa ao Inter" acaba entrando aqui.
-
 ## As padrão de sempre
 
 Inter, Roboto, Open Sans, Lato, Arial, Helvetica, `system-ui` usado como escolha de marca, Montserrat, Poppins, Raleway, Nunito, Nunito Sans, Mulish, Work Sans, Source Sans 3, Fira Sans, Ubuntu, PT Sans, Noto Sans, Arimo, Kanit, Prompt, Rubik, Quicksand.

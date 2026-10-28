@@ -4,8 +4,6 @@ Para landing page, ajuda, e-mail, relatório e descrição de produto. Cada víc
 
 Uma marca sozinha nem sempre é problema: gente também escreve assim de vez em quando. O sinal é várias marcas juntas. As do grupo 1 são as mais fortes; uma já basta para reescrever.
 
-Lista de 2026-10. Revisar a cada seis meses: as palavras da moda mudam, as estruturas ficam.
-
 ## 1. Encenar em vez de dizer
 
 - **"Não é só X, é Y."** Nega algo que ninguém disse, para o resto parecer maior. Diga Y direto.
