@@ -24,7 +24,6 @@ Antes de abrir o acervo, responda para si, em uma linha cada:
   - **operar:** sistema, painel, cadastro, PDV, onde a pessoa trabalha;
   - **vender:** landing, site da empresa, onde a pessoa decide;
   - **ler:** documentação, relatório, artigo.
-- **Onde roda.** Sistema interno ou sem internet precisa da fonte hospedada junto do projeto, não puxada do Google.
 
 Se faltar uma dessas respostas e ela mudar a escolha, pergunte. Se não mudar, assuma e diga o que assumiu.
 
@@ -93,7 +92,7 @@ Se o arquivo já existir, leia-o antes do passo 3. Ao refazer a fonte deste proj
 
 ## 6. Usar
 
-- Carregue só os pesos que a interface usa.
+- **Sirva a fonte junto com o projeto, sempre, e só nos pesos usados.** Fonte puxada de CDN, como o do Google Fonts, manda o IP de cada visitante para outra empresa, o que vai contra a privacidade dele e a LGPD. Use CDN só se a pessoa pedir.
+- Baixe os arquivos `woff2` desses pesos, guarde numa pasta do projeto e carregue com `@font-face`. Em projeto com npm, o pacote `@fontsource/<nome-da-fonte>` faz isso. Se não conseguir baixar daqui, deixe o `@font-face` apontando para a pasta e diga à pessoa quais arquivos baixar.
 - Defina as fontes uma vez, como variáveis (`--fonte-titulo`, `--fonte-texto`, `--fonte-numero`), e use só as variáveis no resto do código.
 - Coloque uma fonte de reserva parecida: serifada com `serif`, sem serifa com `sans-serif`, mono com `monospace`.
-- Se o sistema roda sem internet, baixe os arquivos e sirva junto com o projeto.

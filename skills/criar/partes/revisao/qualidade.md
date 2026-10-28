@@ -64,6 +64,7 @@ O que toda tela precisa cumprir, seja qual for a cara dela. Não é o que faz um
 - Imagens no tamanho em que aparecem, com largura e altura declaradas, para a tela não pular quando carregam.
 - O que está fora da primeira tela carrega depois.
 - Fontes só nos pesos usados, com `font-display: swap`.
+- Fonte servida de arquivo do próprio projeto, sem `<link>` nem `@import` para o Google Fonts ou outro CDN, a não ser que a pessoa tenha pedido.
 - Nada pesado bloqueia a primeira tela de aparecer.
 
 ## Navegação
