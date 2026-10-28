@@ -23,6 +23,7 @@ O formato segue o [Keep a Changelog 1.1.0](https://keepachangelog.com/pt-BR/1.1.
 - As partes deixam de se chamar "skill" no texto. Skill agora é só o `/offpilot:criar`.
 - A descrição do comando foi escrita para a pessoa, que é quem a vê na lista de comandos. O Claude não recebe essa descrição.
 - README: o custo agora é o medido. Parado, quase nada; numa criação completa, cerca de 40 mil tokens de instrução.
+- README: o selo "Só texto" virou o que é verdade agora. O núcleo é texto, os dois verificadores são opcionais e só leem os arquivos do projeto, e não há chamada de rede nem hook.
 
 ### Removido
 

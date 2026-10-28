@@ -125,7 +125,7 @@ Para mexer numa parte só, peça ao próprio `/offpilot:criar`: "revisa essa tel
 
 - **Parado:** quase nada. O Off Pilot só roda quando você chama `/offpilot:criar`. Até lá, nem a descrição dele entra no contexto do Claude.
 - **Rodando:** cerca de 40 mil tokens de instrução numa criação completa de tela de sistema. É o que o Claude lê do núcleo e das partes de plano visual, fontes, informação, textos e revisão. Medido no Sonnet 5.5.
-- **Só texto:** arquivos Markdown. Nenhum programa, nenhuma chamada de rede, nenhum hook.
+- **O núcleo é texto:** arquivos Markdown. Há dois verificadores opcionais em Node, sem dependência nenhuma, que só leem os arquivos do seu projeto: um procura fonte queimada, o outro calcula o contraste das cores. Sem Node, ele confere lendo o código e avisa. Nenhuma chamada de rede, nenhum hook.
 - **Memória do projeto:** as decisões aprovadas ficam em `.offpilot/direcao.md`, na raiz do seu projeto, e as próximas telas seguem o que está lá. É esse arquivo que segura o projeto numa conversa longa: depois de uma compactação, o Claude Code só reanexa os primeiros 5 mil tokens do `SKILL.md`, e o que ele leu das partes se perde.
 
 ## Licença
