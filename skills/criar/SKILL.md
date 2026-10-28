@@ -11,20 +11,28 @@ A pessoa chama `/offpilot:criar` com o que quer: "faz o painel do gerente do pos
 
 O pedido da pessoa: **$ARGUMENTS**
 
-As partes que ela usa, cada uma em `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md`:
+## As partes e quando ler cada arquivo
 
-| Parte | Decide |
-|---|---|
-| `plano-visual` | a cara do projeto: cor, forma, densidade, detalhe-assinatura |
-| `fontes` | a fonte, entre 3 combinações |
-| `informacao` | o que aparece numa tela de sistema, em que ordem e tamanho |
-| `estrutura-de-pagina` | o formato de uma página de site |
-| `textos` | todo texto da tela, em português do Brasil |
-| `revisao` | a revisão do que foi feito, e a qualidade mínima |
+As partes não são skills: só esta skill aparece para a pessoa. São seis pastas em `${CLAUDE_SKILL_DIR}/partes/`. Rodar uma parte é ler o `parte.md` dela e seguir as instruções, pulando as perguntas que o passo 3 já respondeu. Leia cada arquivo inteiro, pelo caminho abaixo, a partir de `${CLAUDE_SKILL_DIR}`, na hora indicada:
 
-## Como usar as partes
-
-As partes não são skills: só esta skill aparece para a pessoa. Quando um passo mandar rodar uma parte, leia `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
+| Arquivo | O que tem | Quando ler |
+|---|---|---|
+| `partes/plano-visual/parte.md` | a cara do projeto: cor, forma, densidade, detalhe-assinatura | passo 4.1, primeiro; ou no pedido "muda a cara" |
+| `partes/plano-visual/vicios.md` | o que a IA sempre repete no visual | passo 4.1, no teste do plano; no 4.2, antes de escrever o código; nos passos 4.3 e 5, na revisão |
+| `partes/fontes/parte.md` | o método das 3 combinações de fonte | passo 4.1, depois do plano visual; ou no pedido "troca a fonte" |
+| `partes/fontes/queimadas.md` | as fontes que só entram se a pessoa pedir pelo nome | passo 4.1, antes de propor fontes |
+| `partes/fontes/acervo.md` | as fontes permitidas, por grupo | passo 4.1, ao montar as 3 combinações |
+| `partes/informacao/parte.md` | o que aparece numa tela de sistema, em que ordem e tamanho | passo 4.1, para cada tela de sistema; ou no pedido "o que eu ponho nessa tela?" |
+| `partes/informacao/vicios-de-painel.md` | o que a IA repete em toda tela de sistema | passo 4.1, ao listar os blocos; nos passos 4.3 e 5, na revisão |
+| `partes/informacao/pecas.md` | regras de número, gráfico, tabela, formulário e estados | passo 4.2, ao montar cada peça |
+| `partes/estrutura-de-pagina/parte.md` | o formato de uma página de site | passo 4.1, para cada página de site; ou no pedido "como organizo essa página?" |
+| `partes/estrutura-de-pagina/formatos.md` | os 24 formatos de página | passo 4.1, ao escolher o formato |
+| `partes/textos/parte.md` | todo texto da tela, em português do Brasil | passo 4.2, antes do primeiro texto; ou no pedido "arruma os textos" |
+| `partes/textos/portugues.md` | maiúscula, verbo, data, dinheiro, palavras traduzidas | passo 4.2, junto com `textos/parte.md` |
+| `partes/textos/vicios-de-tela.md` | os textos de tela que a IA repete | passo 4.2, ao conferir os textos; nos passos 4.3 e 5, na revisão |
+| `partes/textos/vicios-de-prosa.md` | os vícios de texto corrido | passo 4.2, só se a tela tem texto corrido: site, ajuda, e-mail |
+| `partes/revisao/parte.md` | as seis passadas e a lista por gravidade | passos 4.3 e 5 |
+| `partes/revisao/qualidade.md` | o mínimo que toda tela cumpre: contraste, teclado, toque, larguras | passo 4.2, ao construir; passos 4.3 e 5, ao revisar |
 
 ## 1. Ler o pedido e o projeto
 
