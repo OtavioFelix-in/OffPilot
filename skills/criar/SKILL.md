@@ -1,6 +1,6 @@
 ---
 name: criar
-description: Porta de entrada do Off Pilot. Tira o Claude do piloto automático ao criar ou revisar qualquer interface (sistema, painel, site, landing page, tela). Faz as perguntas que mudam o resultado uma vez só, decide a cara, a fonte, a estrutura e o conteúdo da tela antes do código, constrói e revisa o próprio trabalho. Use quando a pessoa chamar /offpilot:criar, ou pedir uma interface que "não pareça feita por IA", "com cara própria" ou "diferente do padrão".
+description: Cria ou revisa uma tela, um sistema ou um site. Pergunta antes, mostra o plano de cara, fonte e conteúdo, e só escreve o código depois que você aprova.
 disable-model-invocation: true
 argument-hint: "[o que você quer criar ou revisar]"
 ---
