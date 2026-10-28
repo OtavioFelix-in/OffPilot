@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.3.0-FFB547?style=flat-square">
+  <img alt="versão" src="https://img.shields.io/badge/vers%C3%A3o-0.4.0-FFB547?style=flat-square">
   <img alt="comando" src="https://img.shields.io/badge/comando-%2Foffpilot%3Acriar-2E4239?style=flat-square">
   <img alt="idioma" src="https://img.shields.io/badge/idioma-PT--BR-1F7A3A?style=flat-square">
   <img alt="licença" src="https://img.shields.io/badge/licen%C3%A7a-MIT-2EA043?style=flat-square">

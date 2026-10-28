@@ -4,7 +4,7 @@ Aqui fica o que muda para quem usa o Off Pilot, versão por versão.
 
 O formato segue o [Keep a Changelog 1.1.0](https://keepachangelog.com/pt-BR/1.1.0/), e as versões seguem o [Versionamento Semântico](https://semver.org/lang/pt-BR/). Enquanto a versão começar com 0, uma versão nova pode mudar o jeito de usar. Quando isso acontecer, a versão diz o que mudou e o que fazer.
 
-## [Não publicado]
+## [0.4.0] - 2026-10-28
 
 ### Adicionado
 
