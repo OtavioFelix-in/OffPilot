@@ -1,21 +1,21 @@
 # Informação
 
-Sem orientação, toda tela de sistema que o Claude monta tem a mesma ordem: quatro cards de número no topo, um gráfico grande, dois gráficos pequenos e uma tabela. O painel do posto e o do mercado saem iguais, e nenhum dos dois diz o que importa hoje. Esta skill decide o conteúdo da tela pelo que a pessoa que a usa precisa saber e fazer.
+Sem orientação, toda tela de sistema que o Claude monta tem a mesma ordem: quatro cards de número no topo, um gráfico grande, dois gráficos pequenos e uma tabela. O painel do posto e o do mercado saem iguais, e nenhum dos dois diz o que importa hoje. Esta parte decide o conteúdo da tela pelo que a pessoa que a usa precisa saber e fazer.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos e skills ligados a esta:
+Arquivos e partes ligados a esta:
 
 - [pecas.md](pecas.md): regras de número, comparação, gráfico, tabela, formulário e estados (vazio, zero, erro, carregando).
 - [vicios-de-painel.md](vicios-de-painel.md): o que a IA repete em toda tela de sistema e o que fazer no lugar.
-- skill `plano-visual`: a cara da tela (cor, fonte, forma, densidade). Esta skill cuida do conteúdo.
-- skill `textos`: todo texto da tela.
+- parte `plano-visual`: a cara da tela (cor, fonte, forma, densidade). Esta parte cuida do conteúdo.
+- parte `textos`: todo texto da tela.
 
 ## Quando usar
 
 Em tela onde a pessoa **trabalha**: painel, dashboard, lista, fila, cadastro, detalhe de um registro, PDV, configuração, relatório.
 
-Página de site, que a pessoa lê e rola, segue a skill `estrutura-de-pagina`.
+Página de site, que a pessoa lê e rola, segue a parte `estrutura-de-pagina`.
 
 ## 1. Fazer o inventário
 
@@ -121,5 +121,5 @@ Antes de entregar, olhe a tela pronta, de preferência por print, e confira:
 3. A tarefa comum está a um clique?
 4. Algum bloco não responde a nenhuma pergunta? Apague.
 5. Os números fecham? Some as partes e compare com o total.
-6. Passe por [vicios-de-painel.md](vicios-de-painel.md) e pelo `qualidade.md` da skill `revisao`.
+6. Passe por [vicios-de-painel.md](vicios-de-painel.md) e pelo `qualidade.md` da parte `revisao`.
 7. Abra no celular: a ordem continua fazendo sentido?

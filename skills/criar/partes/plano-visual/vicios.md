@@ -27,13 +27,13 @@ Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira 
   - título centralizado, uma frase embaixo, dois botões e um print do produto;
   - três cards iguais de "recursos", cada um com um ícone;
   - grade bento de blocos arredondados;
-  - a sequência pronta: título, logos de clientes, três cards de recursos, depoimentos, preços, perguntas e botão final, em qualquer ramo (ver skill `estrutura-de-pagina`).
+  - a sequência pronta: título, logos de clientes, três cards de recursos, depoimentos, preços, perguntas e botão final, em qualquer ramo (ver parte `estrutura-de-pagina`).
 - **Sistema:**
   - menu lateral escuro com o item ativo numa pílula colorida;
   - quatro cards de número no topo, cada um com ícone num círculo, um "+12,5%" verde e um minigráfico;
   - gráfico de área com degradê embaixo dos cards;
   - tabela zebrada com cabeçalho em caixa alta.
-  - a lista completa de vícios de tela de sistema está na skill `informacao`.
+  - a lista completa de vícios de tela de sistema está na parte `informacao`.
 - Tudo dentro de card, até o que não precisa de moldura.
 
 ## Tipografia
@@ -42,7 +42,7 @@ Lista de 2026-10. Revisar a cada seis meses. Cada correção que vira moda vira 
 - Rótulo pequeno em caixa alta, com letras espaçadas, em cima de cada título.
 - Fonte mono em rótulos e legendas sem motivo técnico.
 - Título serifado enorme como atalho para "parecer premium".
-- As mesmas fontes de sempre (ver `queimadas.md` na skill `fontes`).
+- As mesmas fontes de sempre (ver `queimadas.md` na parte `fontes`).
 
 ## Enfeites
 

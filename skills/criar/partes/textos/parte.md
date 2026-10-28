@@ -1,10 +1,10 @@
 # Textos
 
-O Claude escreve em português como quem traduz do inglês: "Bem-vindo de volta!", "Ops, algo deu errado", "Gerencie seus itens", "Deletar", "Sucesso!". E enche a tela de frase que não precisa estar ali: subtítulo que repete o título, legenda que explica o óbvio, boas-vindas num sistema de trabalho. Esta skill escreve só o que a tela precisa, do jeito que um brasileiro que trabalha naquele ramo escreveria.
+O Claude escreve em português como quem traduz do inglês: "Bem-vindo de volta!", "Ops, algo deu errado", "Gerencie seus itens", "Deletar", "Sucesso!". E enche a tela de frase que não precisa estar ali: subtítulo que repete o título, legenda que explica o óbvio, boas-vindas num sistema de trabalho. Esta parte escreve só o que a tela precisa, do jeito que um brasileiro que trabalha naquele ramo escreveria.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos desta skill:
+Arquivos desta parte:
 
 - [portugues.md](portugues.md): convenções de português de interface (maiúscula, infinitivo, formatos de data e dinheiro, palavras traduzidas).
 - [vicios-de-tela.md](vicios-de-tela.md): os textos de tela que a IA repete e o que fazer no lugar.
@@ -100,7 +100,7 @@ Siga também [portugues.md](portugues.md) em tudo.
 
 ## 5. Tom pelo tipo de tela
 
-O tipo de tela vem do plano visual (skill `plano-visual`):
+O tipo de tela vem do plano visual (parte `plano-visual`):
 
 - **operar** (sistema, painel, cadastro): curto, neutro, direto. A pessoa está trabalhando e lê de relance. Sem exclamação, sem emoji, sem piada.
 - **vender** (landing, site): pode ter voz e personalidade, mas cada frase diz algo concreto sobre o produto. Slogan vazio sai ("a solução completa para o seu negócio").

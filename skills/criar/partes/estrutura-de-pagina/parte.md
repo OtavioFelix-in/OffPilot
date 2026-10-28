@@ -1,20 +1,20 @@
 # Estrutura de página
 
-Sem orientação, toda página que o Claude monta tem a mesma ordem: título grande no meio, uma frase, dois botões, três cards de recursos, depoimentos, preços, perguntas e um botão final. O site do posto, o da padaria e o do escritório de advocacia saem com o mesmo esqueleto. Esta skill escolhe o formato da página a partir do que o negócio tem para mostrar e do que o visitante quer saber.
+Sem orientação, toda página que o Claude monta tem a mesma ordem: título grande no meio, uma frase, dois botões, três cards de recursos, depoimentos, preços, perguntas e um botão final. O site do posto, o da padaria e o do escritório de advocacia saem com o mesmo esqueleto. Esta parte escolhe o formato da página a partir do que o negócio tem para mostrar e do que o visitante quer saber.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos e skills ligados a esta:
+Arquivos e partes ligados a esta:
 
 - [formatos.md](formatos.md): os 24 formatos de página, cada um com do que precisa, quando usar e quando não usar.
-- skill `plano-visual`: cor, fonte, forma e a ideia do projeto. Esta skill cuida só da estrutura.
-- skill `textos`: todo texto das seções.
+- parte `plano-visual`: cor, fonte, forma e a ideia do projeto. Esta parte cuida só da estrutura.
+- parte `textos`: todo texto das seções.
 
 ## Quando usar
 
 Em página que a pessoa **lê e rola**: site de empresa, landing page, página de produto, de serviço, de evento, portfólio, cardápio online, página de ajuda.
 
-Tela onde a pessoa **trabalha** (sistema, painel, cadastro) não usa esta skill. Ela segue o layout que o usuário já conhece, como manda a `plano-visual`.
+Tela onde a pessoa **trabalha** (sistema, painel, cadastro) não usa esta parte. Ela segue o layout que o usuário já conhece, como manda a `plano-visual`.
 
 Se a página já existe e a pessoa só quer mudar uma seção, mantenha o formato dela.
 
@@ -128,7 +128,7 @@ Depois de construir:
 - **Teste do vizinho:** um negócio de outro ramo teria a mesma lista de seções? Se sim, o esqueleto é genérico. Volte ao passo 4.
 - **Sequência pronta:** a ordem virou título, cards de recursos, depoimentos, preços, perguntas e botão final? Só pode ficar assim se cada seção responde a uma pergunta real.
 - **Conteúdo falso:** algum número, depoimento, logo de cliente ou foto foi inventado para preencher o formato? Tire, ou troque de formato.
-- Passe pela lista de vícios da `plano-visual` (seção Estrutura) e pelo `qualidade.md` da skill `revisao`.
+- Passe pela lista de vícios da `plano-visual` (seção Estrutura) e pelo `qualidade.md` da parte `revisao`.
 
 ## Estudar uma referência
 

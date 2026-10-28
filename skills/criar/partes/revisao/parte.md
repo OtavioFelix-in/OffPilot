@@ -1,16 +1,16 @@
 # Revisão
 
-As outras skills do Off Pilot decidem uma interface antes de ela existir. Esta olha uma que já existe, feita pelo Claude, por outra IA ou por uma pessoa, e aponta o que a deixa genérica, confusa ou frágil.
+As outras partes do Off Pilot decidem uma interface antes de ela existir. Esta olha uma que já existe, feita pelo Claude, por outra IA ou por uma pessoa, e aponta o que a deixa genérica, confusa ou frágil.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos e skills ligados a esta:
+Arquivos e partes ligados a esta:
 
 - [qualidade.md](qualidade.md): o mínimo que toda tela precisa cumprir (contraste, teclado, toque, larguras, formulários).
-- skill `plano-visual`, com `vicios.md`: a cara do projeto e os vícios visuais.
-- skill `informacao`, com `vicios-de-painel.md`: o que aparece na tela de sistema e em que ordem.
-- skill `estrutura-de-pagina`: o formato da página de site.
-- skill `textos`, com `vicios-de-tela.md`: os textos.
+- parte `plano-visual`, com `vicios.md`: a cara do projeto e os vícios visuais.
+- parte `informacao`, com `vicios-de-painel.md`: o que aparece na tela de sistema e em que ordem.
+- parte `estrutura-de-pagina`: o formato da página de site.
+- parte `textos`, com `vicios-de-tela.md`: os textos.
 
 ## Regra de ouro: revisar não é refazer
 
@@ -51,7 +51,7 @@ Faça as passadas nesta ordem e anote cada problema com o lugar exato onde está
 **3. Texto.**
 - Teste do apagar: que textos podem sair sem a tela ficar menos clara?
 - As palavras são do ramo, e a mesma coisa tem o mesmo nome em todo lugar?
-- Botão, erro, tela vazia e confirmação seguem a skill `textos`?
+- Botão, erro, tela vazia e confirmação seguem a parte `textos`?
 - Português: maiúscula, plural, formatos de data e dinheiro, acento e crase.
 
 **4. Fuga do plano.** Se existe `.offpilot/direcao.md`, compare: cor fora da paleta, fonte que não é a escolhida, canto diferente, detalhe-assinatura sumido ou repetido em tudo. Se não existe, anote isso e ofereça tirar um plano da tela atual pela `plano-visual` no fim.
@@ -86,7 +86,7 @@ Cada problema em uma linha ou duas: **onde está, o que é, por que atrapalha e 
 
 - Corrija só o que foi aprovado.
 - Mantenha a cara do projeto (regra de ouro).
-- Siga as regras da skill dona de cada assunto: `informacao` para ordem e peças, `textos` para palavras, `plano-visual` para cor e forma.
+- Siga as regras da parte dona de cada assunto: `informacao` para ordem e peças, `textos` para palavras, `plano-visual` para cor e forma.
 - Se o projeto não tinha `.offpilot/direcao.md` e a pessoa aceitou, grave o plano tirado da tela no fim.
 
 ## 6. Mostrar antes e depois

@@ -7,7 +7,7 @@ argument-hint: "[o que você quer criar ou revisar]"
 
 # Off Pilot
 
-A pessoa chama `/offpilot:criar` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as outras skills do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
+A pessoa chama `/offpilot:criar` com o que quer: "faz o painel do gerente do posto", "cria o site da padaria", "revisa essa tela". Esta skill conduz o trabalho do começo ao fim, chamando as partes do Off Pilot na ordem certa, para que a interface saia com cara própria, a informação no lugar certo e textos de gente.
 
 O pedido da pessoa: **$ARGUMENTS**
 
@@ -24,7 +24,7 @@ As partes que ela usa, cada uma em `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md`:
 
 ## Como usar as partes
 
-As partes não são skills: só esta skill aparece para a pessoa. Quando um passo mandar rodar uma parte (o texto às vezes a chama de skill), leia `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
+As partes não são skills: só esta skill aparece para a pessoa. Quando um passo mandar rodar uma parte, leia `${CLAUDE_SKILL_DIR}/partes/<nome>/parte.md` e os arquivos que ele indicar, e siga as instruções dela, pulando as perguntas que o passo 3 já respondeu.
 
 ## 1. Ler o pedido e o projeto
 
@@ -45,7 +45,7 @@ As partes não são skills: só esta skill aparece para a pessoa. Quando um pass
 
 ## 3. Perguntar uma vez só
 
-As skills `plano-visual`, `informacao` e `estrutura-de-pagina` têm perguntas próprias. O núcleo junta todas numa mensagem só, para a pessoa não responder a mesma coisa três vezes.
+As partes `plano-visual`, `informacao` e `estrutura-de-pagina` têm perguntas próprias. O núcleo junta todas numa mensagem só, para a pessoa não responder a mesma coisa três vezes.
 
 Escolha **de 2 a 4 perguntas**, as que mais mudam o resultado, cada uma com um palpite para a pessoa só confirmar ou corrigir:
 
@@ -56,7 +56,7 @@ Escolha **de 2 a 4 perguntas**, as que mais mudam o resultado, cada uma com um p
 
 Não pergunte o que dá para descobrir no projeto. Se a pessoa disser "vai" ou "decide você", siga com os palpites e diga numa frase o que assumiu.
 
-Grave as respostas em `.offpilot/direcao.md`, na seção `## Contexto`. As outras skills leem dali e não perguntam de novo.
+Grave as respostas em `.offpilot/direcao.md`, na seção `## Contexto`. As outras partes leem dali e não perguntam de novo.
 
 ## 4. Criar
 
@@ -76,7 +76,7 @@ São no máximo duas esperas antes do código: as respostas às perguntas e esta
 
 - Grave o que foi aprovado em `.offpilot/direcao.md`.
 - Construa seguindo o passo "Construir" da `plano-visual` (tudo vira variável, ousadia num lugar só), as regras de peça da `informacao` e o `qualidade.md` da `revisao`.
-- Escreva todo texto pela skill `textos`, com o glossário do ramo.
+- Escreva todo texto pela parte `textos`, com o glossário do ramo.
 - Use dados de exemplo com cara do produto e volumes reais. O que for exemplo e precisar ser trocado, marque como "[a confirmar]".
 
 ### 4.3 Revisar o próprio trabalho
@@ -94,7 +94,7 @@ Mostre prints no computador e no celular, se der, e um resumo curto:
 
 ## 5. Revisar
 
-Rode a skill `revisao`, que já tem as perguntas, as passadas, a lista por gravidade e o antes e depois. Se a revisão concluir que a direção inteira está errada e a pessoa topar refazer, volte ao passo 4 com o que já se sabe.
+Rode a parte `revisao`, que já tem as perguntas, as passadas, a lista por gravidade e o antes e depois. Se a revisão concluir que a direção inteira está errada e a pessoa topar refazer, volte ao passo 4 com o que já se sabe.
 
 ## Regras que valem sempre
 
@@ -102,11 +102,11 @@ Rode a skill `revisao`, que já tem as perguntas, as passadas, a lista por gravi
 - **O pedido da pessoa vence.** Se ela pediu uma cor, uma fonte ou um formato, use, mesmo que esteja numa lista de vícios. Avise uma vez, se for o caso, e siga.
 - **Não invente conteúdo.** Número, depoimento, cliente, prêmio e foto de verdade só entram se a pessoa deu.
 - **Português do Brasil** em tudo que a pessoa vê, a não ser que o público seja de outro idioma.
-- **O `.offpilot/direcao.md` é a memória do projeto.** Toda decisão aprovada vai para lá, e toda skill lê de lá antes de decidir.
+- **O `.offpilot/direcao.md` é a memória do projeto.** Toda decisão aprovada vai para lá, e toda parte lê de lá antes de decidir.
 
 ## O arquivo `.offpilot/direcao.md`
 
-Fica na raiz do projeto. Cada skill escreve na sua seção:
+Fica na raiz do projeto. Cada parte escreve na sua seção:
 
 ```markdown
 # Direção do projeto

@@ -1,13 +1,13 @@
 # Plano visual
 
-Sem um plano, o Claude começa a codar com os valores de sempre, e todo sistema sai igual: a mesma cor, os mesmos cantos arredondados, o mesmo card com sombra. Esta skill decide a cara do projeto antes da primeira linha de código, a partir do produto e de quem usa, e a pessoa aprova antes de construir.
+Sem um plano, o Claude começa a codar com os valores de sempre, e todo sistema sai igual: a mesma cor, os mesmos cantos arredondados, o mesmo card com sombra. Esta parte decide a cara do projeto antes da primeira linha de código, a partir do produto e de quem usa, e a pessoa aprova antes de construir.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos e skills ligados a esta:
+Arquivos e partes ligados a esta:
 
 - [vicios.md](vicios.md): o que a IA sempre repete. Nada dali entra sem motivo.
-- skill `fontes`: escolhe a fonte. Este plano não escolhe fonte por conta própria.
+- parte `fontes`: escolhe a fonte. Este plano não escolhe fonte por conta própria.
 
 ## Quando não usar
 
@@ -69,13 +69,13 @@ Cada decisão tem um motivo tirado das etapas 2 a 4. "Moderno e limpo" não é m
 - **Cor.** De 4 a 6 cores, cada uma com nome, hex e papel: fundo, texto, ação principal, destaque, estados (sucesso, alerta, erro). Diga também **quanta cor** a tela leva:
   - em tela de operar, a cor vai no dado e na ação, não na moldura;
   - em tela de vender, pode haver áreas inteiras de cor.
-- **Fonte.** Use a skill `fontes`. O plano só registra a combinação escolhida.
+- **Fonte.** Use a parte `fontes`. O plano só registra a combinação escolhida.
 - **Forma.**
   - **Cantos:** retos, pouco ou muito arredondados, e por quê. Não use o mesmo arredondado em tudo: cantos diferentes podem separar coisas diferentes.
   - **Como separar áreas:** linha, mudança de tom ou espaço. Sombra só onde algo flutua de verdade, como um menu aberto.
   - **Ícones:** com ou sem, que estilo, que espessura.
 - **Densidade.** Folgada ou compacta, conforme o uso. Quem lança cem itens por hora quer compacto. Quem olha uma vez por dia aguenta folga.
-- **Esqueleto.** Uma frase e um desenho em texto da organização geral: onde fica a navegação e onde fica a área de trabalho. A ordem dos blocos dentro da tela, o que vem primeiro e o que sai, é trabalho da skill `informacao` (tela de sistema) ou da `estrutura-de-pagina` (página de site), não deste plano.
+- **Esqueleto.** Uma frase e um desenho em texto da organização geral: onde fica a navegação e onde fica a área de trabalho. A ordem dos blocos dentro da tela, o que vem primeiro e o que sai, é trabalho da parte `informacao` (tela de sistema) ou da `estrutura-de-pagina` (página de site), não deste plano.
 - **Detalhe-assinatura.** **Um só**, com nome concreto e tirado da ideia: "o valor do litro aparece como na placa da pista", "o total do carrinho imita o rodapé do cupom fiscal". É o único lugar da tela que pode chamar atenção. O resto fica quieto.
 - **Movimento.** Só onde mostra o que mudou: algo abriu, salvou ou deu erro. Nada de animação de entrada em tudo.
 
@@ -100,7 +100,7 @@ Apresente o plano antes de escrever a interface, neste formato:
 - <nome> <#hex>: <papel>
 - ...
 
-**Fonte:** <a combinação escolhida na skill fontes>
+**Fonte:** <a combinação escolhida na parte fontes>
 
 **Forma:** cantos <...>, separação por <...>, ícones <...>. <motivo em uma frase>
 
@@ -126,7 +126,7 @@ Com o plano aprovado, grave-o em `.offpilot/direcao.md`, na raiz do projeto, com
 - **Releia [vicios.md](vicios.md) antes de escrever**, não só no fim. Vício entra na hora de escrever, até em texto pequeno como subtítulo e rótulo.
 - **Tudo vira variável primeiro:** cores, fontes, cantos, espaçamentos. O resto do código usa só as variáveis. Valor solto no meio do CSS não entra.
 - **A ousadia fica num lugar só:** o detalhe-assinatura. Todo o resto segue o plano sem enfeite.
-- **Qualidade mínima, sempre:** siga o `qualidade.md` da skill `revisao` (contraste, teclado, toque, larguras, movimento, formulários).
+- **Qualidade mínima, sempre:** siga o `qualidade.md` da parte `revisao` (contraste, teclado, toque, larguras, movimento, formulários).
 - **Estrutura visual é informação.** Borda, numeração, rótulo e divisória só existem se dizem algo sobre o conteúdo. Numerar 01, 02, 03 só se for passo a passo de verdade.
 
 ## 10. Conferir
@@ -140,4 +140,4 @@ Se der para ver a tela renderizada, tire print no celular e no computador e comp
 
 ## Textos da tela
 
-Todo texto da tela (título, botão, rótulo, erro, tela vazia, aviso) segue a skill `textos`. Ela também guarda o glossário do ramo no mesmo `.offpilot/direcao.md`.
+Todo texto da tela (título, botão, rótulo, erro, tela vazia, aviso) segue a parte `textos`. Ela também guarda o glossário do ramo no mesmo `.offpilot/direcao.md`.

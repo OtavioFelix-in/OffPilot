@@ -1,6 +1,6 @@
 # Peças da tela
 
-Regras para cada tipo de informação numa tela de sistema. Formatos de número, data e dinheiro seguem a skill `textos`.
+Regras para cada tipo de informação numa tela de sistema. Formatos de número, data e dinheiro seguem a parte `textos`.
 
 ## Número de destaque
 
@@ -82,7 +82,7 @@ Regras de todo gráfico:
 
 - **O total soma as partes que aparecem na tela.** Some os valores arredondados que estão na tela, não o valor bruto, para não dar um centavo de diferença.
 - **O mesmo fato tem o mesmo valor em todo lugar.** O horário do pico, o total do dia e o bico parado vêm de um lugar só e aparecem iguais em todos os blocos.
-- **A mesma coisa tem o mesmo nome em todo lugar** (glossário da skill `textos`).
+- **A mesma coisa tem o mesmo nome em todo lugar** (glossário da parte `textos`).
 - **Dados de exemplo** com volumes reais do ramo e números pequenos quando o sistema é novo. Nada de totais redondos e crescimento de 300% numa conta de uma semana.
 
 ## Densidade

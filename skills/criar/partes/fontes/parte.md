@@ -1,10 +1,10 @@
 # Fontes
 
-Sem orientação, o Claude escolhe sempre entre as mesmas dez fontes. O sistema de um mercado e o de um posto de combustível saem com a mesma letra. Esta skill faz a fonte sair do produto, e a pessoa escolhe entre três caminhos diferentes.
+Sem orientação, o Claude escolhe sempre entre as mesmas dez fontes. O sistema de um mercado e o de um posto de combustível saem com a mesma letra. Esta parte faz a fonte sair do produto, e a pessoa escolhe entre três caminhos diferentes.
 
-Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra skill ou um arquivo dela, leia de lá.
+Esta é uma parte do Off Pilot, lida pela skill `criar` do Off Pilot. As outras partes ficam em pastas irmãs desta, em `../<nome-da-parte>/parte.md`. Quando este texto citar outra parte ou um arquivo dela, leia de lá.
 
-Arquivos desta skill:
+Arquivos desta parte:
 
 - [acervo.md](acervo.md): as fontes permitidas, agrupadas pelo que cada uma lembra.
 - [queimadas.md](queimadas.md): as fontes que só entram se a pessoa pedir pelo nome.
@@ -78,7 +78,7 @@ Depois espere a pessoa escolher. Se ela disser "tanto faz" ou "escolhe você", f
 
 ## 5. Registrar
 
-Depois da escolha, grave em `.offpilot/direcao.md`, na raiz do projeto, o mesmo arquivo em que a skill `plano-visual` guarda o plano:
+Depois da escolha, grave em `.offpilot/direcao.md`, na raiz do projeto, o mesmo arquivo em que a parte `plano-visual` guarda o plano:
 
 ```markdown
 ## Fontes

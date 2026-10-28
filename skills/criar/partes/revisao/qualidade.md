@@ -1,6 +1,6 @@
 # Qualidade mínima
 
-O que toda tela precisa cumprir, seja qual for a cara dela. Não é o que faz uma tela ser boa; é o que impede que ela seja ruim. Vale para construir (skills `plano-visual`, `informacao`, `estrutura-de-pagina`) e para revisar (skill `revisao`).
+O que toda tela precisa cumprir, seja qual for a cara dela. Não é o que faz uma tela ser boa; é o que impede que ela seja ruim. Vale para construir (partes `plano-visual`, `informacao`, `estrutura-de-pagina`) e para revisar (parte `revisao`).
 
 ## Contraste e cor
 
